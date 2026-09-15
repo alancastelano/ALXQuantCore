@@ -77,6 +77,34 @@ CREATE UNIQUE INDEX IF NOT EXISTS idx_ohlc_sym_tf_time
 ON ohlc_prices(symbol, timeframe, time)
 """
 
+MACRO_DDL = """
+CREATE TABLE IF NOT EXISTS macro_series (
+  symbol VARCHAR,
+  date VARCHAR,
+  value DOUBLE,
+  updated_at VARCHAR
+)
+"""
+
+MACRO_INDEX_DDL = """
+CREATE INDEX IF NOT EXISTS idx_macro_sym_date
+ON macro_series(symbol, date)
+"""
+
+RISK_DDL = """
+CREATE TABLE IF NOT EXISTS risk_labels (
+  date VARCHAR,
+  risk_label VARCHAR,
+  roro_score DOUBLE,
+  signal_strength VARCHAR DEFAULT 'low'
+)
+"""
+
+RISK_INDEX_DDL = """
+CREATE INDEX IF NOT EXISTS idx_risk_date
+ON risk_labels(date)
+"""
+
 
 def init_db(db_path=None) -> str:
     """Garante arquivo + schema do DuckDB (cria se ausente). Idempotente.
@@ -91,6 +119,10 @@ def init_db(db_path=None) -> str:
     try:
         conn.execute(OHLC_DDL)
         conn.execute(OHLC_INDEX_DDL)
+        conn.execute(MACRO_DDL)
+        conn.execute(MACRO_INDEX_DDL)
+        conn.execute(RISK_DDL)
+        conn.execute(RISK_INDEX_DDL)
         conn.commit()
     finally:
         conn.close()

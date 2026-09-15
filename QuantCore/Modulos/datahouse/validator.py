@@ -603,6 +603,7 @@ REPAIR_COMMANDS = {
     "OHLC": lambda: _build_ohlc_repair_commands(),
     "Macro": [sys.executable, "-m", "Modulos.datahouse.readiness", "--ensure"],
     "Risk": [sys.executable, "-m", "Modulos.risk_sentiment.engine", "--no-csv"],
+    "Calendar": [sys.executable, "-m", "Modulos.news.ff_calendar", "--fetch"],
 }
 
 
@@ -618,7 +619,7 @@ def _build_ohlc_repair_commands() -> list[list[str]]:
 
 
 REPAIR_DOMAIN_ALIAS = {
-    "ohlc": "OHLC", "macro": "Macro", "risk": "Risk",
+    "ohlc": "OHLC", "macro": "Macro", "risk": "Risk", "calendar": "Calendar",
 }
 
 
@@ -699,6 +700,9 @@ def _build_all_repairs() -> list[tuple[list[str], str]]:
     risk_cmd = REPAIR_COMMANDS["Risk"]
     repairs.append((risk_cmd, "Risk"))
 
+    cal_cmd = REPAIR_COMMANDS["Calendar"]
+    repairs.append((cal_cmd, "Calendar"))
+
     return repairs
 
 
@@ -738,13 +742,23 @@ def _run_repairs_async(domain: str):
 
 
 def count_pending_repairs() -> dict:
-    """Return count of items needing repair per domain."""
+    """Return count of items needing repair per domain.
+
+    Derived from live freshness (not hardcoded): 1 per non-ok domain.
+    """
     stale = get_stale_symbols()
     result = {
         "OHLC": {"count": len(stale), "items": stale},
-        "Macro": {"count": 1},
-        "Risk": {"count": 1},
     }
+    try:
+        fresh = check_domain_freshness()
+        for d in fresh.get("domains", []):
+            if d["domain"] in ("Macro", "Risk", "Calendar"):
+                result[d["domain"]] = {"count": 0 if d["status"] == "ok" else 1}
+    except Exception:
+        pass
+    for missing in ("Macro", "Risk", "Calendar"):
+        result.setdefault(missing, {"count": 1})
     total = sum(v["count"] for v in result.values())
     return {"total": total, "domains": result}
 

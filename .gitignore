@@ -100,8 +100,7 @@ CommandCenter/data/
 
 # --- MQL5 sub-module artifacts ---
 MQL5/MQL5/.git/
-MQL5/MQL5/Profiles/deleted/
-MQL5/MQL5/Profiles/Agents/
+MQL5/MQL5/Profiles/
 MQL5/MQL5/Shared Projects/
 MQL5/MQL5/Scripts/UnitTests/
 MQL5/MQL5/Scripts/Examples/
