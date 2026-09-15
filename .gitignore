@@ -64,8 +64,7 @@ config.py
 *.sw?
 
 # --- Data files (runtime, generated) ---
-data/
-!.env.example
+data/*
 !data/schedules.json
 !data/agents_status.json
 
