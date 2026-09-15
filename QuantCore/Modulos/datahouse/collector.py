@@ -331,8 +331,17 @@ def _insert_conn(conn, df: pd.DataFrame, symbol: str, tf_name: str) -> dict:
     df["symbol"] = symbol
     df["timeframe"] = tf_name
     ts_raw = df["time"].astype("int64")
-    if ts_raw.max() > 1e15:
+    # Normaliza p/ segundos por magnitude (limites = pontos medios geometricos).
+    # pandas 2 -> ns (~1.8e18); pandas 3 to_pydatetime -> us (~1.8e15);
+    # APIs web -> ms (~1.8e12); MT5 copy_rates -> s (~1.8e9).
+    # O heuristico antigo (>1e15 -> //1e9) corrompia series em us (epoca/1000).
+    peak = ts_raw.max()
+    if peak > 3.16e16:
         df["time_int"] = ts_raw // 10**9
+    elif peak > 3.16e13:
+        df["time_int"] = ts_raw // 10**6
+    elif peak > 3.16e10:
+        df["time_int"] = ts_raw // 10**3
     else:
         df["time_int"] = ts_raw
 

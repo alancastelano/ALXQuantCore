@@ -21,7 +21,7 @@ import sys
 from datetime import datetime
 
 APP_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-DEFAULT_LOG = os.path.join(APP_ROOT, "data", "logs", "ensure_tasks.log")
+DEFAULT_LOG = os.path.normpath(os.path.join(APP_ROOT, "..", "data", "logs", "ensure_tasks.log"))
 
 sys.path.insert(0, APP_ROOT)
 try:

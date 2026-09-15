@@ -19,6 +19,9 @@ from datetime import datetime, timezone, timedelta
 
 import requests
 
+# Bootstrap: tasks SYSTEM rodam com cwd arbitrario; garante QuantCore no path.
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
 logger = logging.getLogger(__name__)
 
 FF_URL_THISWEEK = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"

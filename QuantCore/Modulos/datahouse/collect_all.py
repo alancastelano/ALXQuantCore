@@ -13,8 +13,12 @@ Usage:
 """
 
 import json
+import os
 import sys
 from datetime import datetime
+
+# Bootstrap: tasks SYSTEM rodam com cwd arbitrario; garante QuantCore no path.
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 
 def run(log_callback=None, max_iter: int = 2) -> dict:
