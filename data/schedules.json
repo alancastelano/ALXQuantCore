@@ -1,0 +1,47 @@
+[
+  {
+    "domain": "Collect",
+    "label": "CollectAll",
+    "task": "ALX-DataHouse-CollectAll",
+    "freq": "hourly",
+    "at": ":05",
+    "command": "\"C:\\ALXQuant\\.venv\\Scripts\\pythonw.exe\" \"C:\\ALXQuant\\Modulos\\datahouse\\collect_all.py\" --log \"C:\\ALXQuant\\data\\logs\\collect_all.log\"",
+    "last_run": null,
+    "last_status": null,
+    "last_detail": null
+  },
+  {
+    "domain": "Health",
+    "label": "Health",
+    "task": "ALX-DataHouse-Health",
+    "freq": "hourly",
+    "at": "02:20",
+    "command": "\"C:\\ALXQuant\\.venv\\Scripts\\pythonw.exe\" \"C:\\ALXQuant\\Modulos\\datahouse\\health.py\" --notify --log \"C:\\ALXQuant\\data\\logs\\health.log\"",
+    "last_run": null,
+    "last_status": null,
+    "last_detail": null
+  },
+  {
+    "domain": "Validate",
+    "label": "Validate",
+    "task": "ALX-DataHouse-Validate",
+    "freq": "daily",
+    "at": "03:40",
+    "command": "\"C:\\ALXQuant\\.venv\\Scripts\\pythonw.exe\" \"C:\\ALXQuant\\Modulos\\datahouse\\validate_cli.py\" --log \"C:\\ALXQuant\\data\\logs\\validate.log\"",
+    "last_run": null,
+    "last_status": null,
+    "last_detail": null
+  },
+  {
+    "domain": "News",
+    "label": "FFCalendar",
+    "task": "ALX-News-FFCalendar",
+    "freq": "weekly",
+    "at": "00:10",
+    "weekday": "MON",
+    "command": "\"C:\\ALXQuant\\.venv\\Scripts\\pythonw.exe\" \"C:\\ALXQuant\\Modulos\\news\\ff_calendar.py\" --fetch --log \"C:\\ALXQuant\\data\\logs\\news_ffcalendar.log\"",
+    "last_run": null,
+    "last_status": null,
+    "last_detail": null
+  }
+]

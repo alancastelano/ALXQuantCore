@@ -1,0 +1,59 @@
+{
+  "agents": {
+    "ATLAS": {
+      "heartbeat": "2026-09-07T10:34:05.152418",
+      "errors_today": 0,
+      "status": "ONLINE"
+    },
+    "MARCUS": {
+      "heartbeat": null,
+      "errors_today": 0,
+      "status": "STANDBY"
+    },
+    "VICTOR": {
+      "heartbeat": null,
+      "errors_today": 0,
+      "status": "STANDBY"
+    },
+    "HELIOS": {
+      "heartbeat": null,
+      "errors_today": 0,
+      "status": "STANDBY"
+    },
+    "ATHENA": {
+      "heartbeat": null,
+      "errors_today": 0,
+      "status": "STANDBY"
+    },
+    "HELENA": {
+      "heartbeat": null,
+      "errors_today": 0,
+      "status": "STANDBY"
+    },
+    "SOPHIA": {
+      "heartbeat": null,
+      "errors_today": 0,
+      "status": "STANDBY"
+    },
+    "DANTE": {
+      "heartbeat": "2026-09-07T10:26:44.565763",
+      "errors_today": 2,
+      "status": "ONLINE"
+    },
+    "ARTHUR": {
+      "heartbeat": null,
+      "errors_today": 0,
+      "status": "STANDBY"
+    },
+    "NEXUS": {
+      "heartbeat": null,
+      "errors_today": 0,
+      "status": "STANDBY"
+    },
+    "CLARA": {
+      "heartbeat": null,
+      "errors_today": 0,
+      "status": "STANDBY"
+    }
+  }
+}
