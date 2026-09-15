@@ -24,6 +24,7 @@ from pathlib import Path
 
 # Ensure project root is on sys.path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+REPO_ROOT = PROJECT_ROOT.parent  # repo root: data/, MQL5/, .env live here
 sys.path.insert(0, str(PROJECT_ROOT))
 
 import config
@@ -34,7 +35,7 @@ from fastapi.staticfiles import StaticFiles
 from dotenv import load_dotenv
 import uvicorn
 
-load_dotenv(PROJECT_ROOT / ".env", override=True)
+load_dotenv(REPO_ROOT / ".env", override=True)
 
 
 # â”€â”€ Execution Log Buffer â”€â”€
@@ -143,7 +144,7 @@ HERE = Path(__file__).parent
 # â”€â”€ Static files (CSS, JS) â”€â”€
 app.mount("/css", StaticFiles(directory=str(HERE / "css")), name="css")
 app.mount("/js", StaticFiles(directory=str(HERE / "js")), name="js")
-app.mount("/brand", StaticFiles(directory=str(PROJECT_ROOT / "data" / "image")), name="brand")
+app.mount("/brand", StaticFiles(directory=str(REPO_ROOT / "data" / "image")), name="brand")
 
 
 @app.get("/api/logs")
@@ -736,7 +737,7 @@ async def strategy_tester_prepare(symbol: str = "XAUUSD", tf: str = "M5"):
 @app.get("/api/asset-dna/profile/{symbol}")
 async def asset_dna_profile(symbol: str, tf: str = "M5"):
     """Load existing Asset DNA JSON profile and return in dashboard-friendly shape."""
-    profile_path = PROJECT_ROOT / "data" / "mql5" / f"asset_profile_{symbol}_{tf}.json"
+    profile_path = REPO_ROOT / "data" / "mql5" / f"asset_profile_{symbol}_{tf}.json"
     if not profile_path.exists():
         raise HTTPException(status_code=404, detail=f"No profile for {symbol} {tf}")
     import json as _json
@@ -810,7 +811,7 @@ async def asset_dna_run(
 @app.get("/api/asset-dna/json/{symbol}")
 async def asset_dna_json(symbol: str, tf: str = "M5"):
     """Serve Asset DNA JSON profile inline (no download header)."""
-    json_path = PROJECT_ROOT / "data" / "mql5" / f"asset_profile_{symbol}_{tf}.json"
+    json_path = REPO_ROOT / "data" / "mql5" / f"asset_profile_{symbol}_{tf}.json"
     if not json_path.exists():
         raise HTTPException(status_code=404, detail=f"JSON not found for {symbol} {tf}")
     import json as _json
@@ -834,7 +835,7 @@ async def asset_dna_json(symbol: str, tf: str = "M5"):
 @app.get("/api/asset-dna/pdf/{symbol}")
 async def asset_dna_pdf(symbol: str, tf: str = "M5"):
     """Serve the generated Asset DNA PDF report."""
-    pdf_path = PROJECT_ROOT / "data" / "mql5" / f"asset_dna_{symbol}_{tf}.pdf"
+    pdf_path = REPO_ROOT / "data" / "mql5" / f"asset_dna_{symbol}_{tf}.pdf"
     if not pdf_path.exists():
         raise HTTPException(status_code=404, detail=f"PDF not found for {symbol} {tf}")
     return FileResponse(
@@ -847,7 +848,7 @@ async def asset_dna_pdf(symbol: str, tf: str = "M5"):
 async def asset_dna_download(symbol: str, tf: str = "M5", type: str = "json"):
     """Download Asset DNA profile as JSON or PDF."""
     if type == "pdf":
-        pdf_path = PROJECT_ROOT / "data" / "mql5" / f"asset_dna_{symbol}_{tf}.pdf"
+        pdf_path = REPO_ROOT / "data" / "mql5" / f"asset_dna_{symbol}_{tf}.pdf"
         if not pdf_path.exists():
             raise HTTPException(status_code=404, detail=f"PDF not found for {symbol} {tf}")
         return FileResponse(
@@ -856,7 +857,7 @@ async def asset_dna_download(symbol: str, tf: str = "M5", type: str = "json"):
             filename=f"asset_dna_{symbol}_{tf}.pdf",
         )
     else:
-        json_path = PROJECT_ROOT / "data" / "mql5" / f"asset_profile_{symbol}_{tf}.json"
+        json_path = REPO_ROOT / "data" / "mql5" / f"asset_profile_{symbol}_{tf}.json"
         if not json_path.exists():
             raise HTTPException(status_code=404, detail=f"JSON not found for {symbol} {tf}")
         return FileResponse(
@@ -870,9 +871,9 @@ async def asset_dna_download(symbol: str, tf: str = "M5", type: str = "json"):
 async def asset_dna_delete(symbol: str, tf: str = "M5", type: str = "json"):
     """Delete an Asset DNA report file."""
     if type == "pdf":
-        file_path = PROJECT_ROOT / "data" / "mql5" / f"asset_dna_{symbol}_{tf}.pdf"
+        file_path = REPO_ROOT / "data" / "mql5" / f"asset_dna_{symbol}_{tf}.pdf"
     else:
-        file_path = PROJECT_ROOT / "data" / "mql5" / f"asset_profile_{symbol}_{tf}.json"
+        file_path = REPO_ROOT / "data" / "mql5" / f"asset_profile_{symbol}_{tf}.json"
     if not file_path.exists():
         raise HTTPException(status_code=404, detail=f"File not found: {file_path.name}")
     file_path.unlink()
@@ -883,8 +884,8 @@ async def asset_dna_delete(symbol: str, tf: str = "M5", type: str = "json"):
 @app.get("/api/asset-dna/list")
 async def asset_dna_list():
     """List available Asset DNA reports in data/mql5/ + overlay TXT files."""
-    report_dir = PROJECT_ROOT / "data" / "mql5"
-    overlay_dir = PROJECT_ROOT / "MQL5" / "MQL5" / "Files"
+    report_dir = REPO_ROOT / "data" / "mql5"
+    overlay_dir = REPO_ROOT / "MQL5" / "MQL5" / "Files"
     files = {"pdf": [], "json": [], "txt": []}
     if report_dir.exists():
         for f in sorted(report_dir.glob("asset_dna_*.pdf")):
@@ -941,8 +942,8 @@ async def macro_overlay_status(symbol: str, tf: str = "M5"):
     """Read existing macro overlay JSON and return status."""
     import json as _json
     import math
-    json_path = PROJECT_ROOT / "MQL5" / "MQL5" / "Files" / f"macro_overlay_{symbol}.json"
-    txt_path = PROJECT_ROOT / "MQL5" / "MQL5" / "Files" / f"macro_overlay_{symbol}.txt"
+    json_path = REPO_ROOT / "MQL5" / "MQL5" / "Files" / f"macro_overlay_{symbol}.json"
+    txt_path = REPO_ROOT / "MQL5" / "MQL5" / "Files" / f"macro_overlay_{symbol}.txt"
     if not json_path.exists():
         return {"ok": False, "error": "Overlay not generated yet", "has_txt": txt_path.exists()}
     try:
@@ -967,7 +968,7 @@ async def macro_overlay_json(symbol: str):
     """Serve macro overlay JSON inline."""
     import json as _json
     import math
-    json_path = PROJECT_ROOT / "MQL5" / "MQL5" / "Files" / f"macro_overlay_{symbol}.json"
+    json_path = REPO_ROOT / "MQL5" / "MQL5" / "Files" / f"macro_overlay_{symbol}.json"
     if not json_path.exists():
         raise HTTPException(status_code=404, detail=f"Overlay JSON not found for {symbol}")
     with open(json_path, "r", encoding="utf-8") as f:
@@ -987,8 +988,8 @@ async def macro_overlay_json(symbol: str):
 @app.delete("/api/macro-overlay/delete/{symbol}")
 async def macro_overlay_delete(symbol: str):
     """Delete macro overlay files (TXT + JSON)."""
-    txt_path = PROJECT_ROOT / "MQL5" / "MQL5" / "Files" / f"macro_overlay_{symbol}.txt"
-    json_path = PROJECT_ROOT / "MQL5" / "MQL5" / "Files" / f"macro_overlay_{symbol}.json"
+    txt_path = REPO_ROOT / "MQL5" / "MQL5" / "Files" / f"macro_overlay_{symbol}.txt"
+    json_path = REPO_ROOT / "MQL5" / "MQL5" / "Files" / f"macro_overlay_{symbol}.json"
     deleted = []
     for p in [txt_path, json_path]:
         if p.exists():
@@ -1003,7 +1004,7 @@ async def macro_overlay_delete(symbol: str):
 @app.post("/api/settings/overlay")
 async def save_overlay_settings(data: dict = Body(...)):
     """Save overlay auto-run setting to data/overlay_settings.json."""
-    settings_path = PROJECT_ROOT / "data" / "overlay_settings.json"
+    settings_path = REPO_ROOT / "data" / "overlay_settings.json"
     import json as _json
     current = {}
     if settings_path.exists():
@@ -1020,7 +1021,7 @@ async def save_overlay_settings(data: dict = Body(...)):
 @app.get("/api/settings/overlay")
 async def get_overlay_settings():
     """Get overlay auto-run setting."""
-    settings_path = PROJECT_ROOT / "data" / "overlay_settings.json"
+    settings_path = REPO_ROOT / "data" / "overlay_settings.json"
     import json as _json
     if not settings_path.exists():
         return {"auto_run": True}
@@ -1032,7 +1033,7 @@ async def get_overlay_settings():
 
 # DataMiner CSVs are written by the EA to data/ (effective InpDataMinerPath),
 # but older samples may also live in data/mql5/. Scan both and prefer the newest.
-MINER_DIRS = [PROJECT_ROOT / "data", PROJECT_ROOT / "data" / "mql5"]
+MINER_DIRS = [REPO_ROOT / "data", REPO_ROOT / "data" / "mql5"]
 
 
 def _iter_newest_miner(glob_pattern):
@@ -1192,12 +1193,12 @@ async def calibration_run(symbol: str = "XAUUSD", tf: str = "M5"):
         return {"ok": False, "error": f"No DataMiner CSV found for {symbol} in {MINER_DIRS}"}
 
     # Find Asset DNA JSON (optional — calibration can run without it)
-    data_dir = PROJECT_ROOT / "data" / "mql5"
+    data_dir = REPO_ROOT / "data" / "mql5"
     json_path = data_dir / f"asset_profile_{symbol}_{tf}.json"
     has_dna = json_path.exists()
 
     # Find MQH file
-    mqh_path = PROJECT_ROOT / "MQL5" / "MQL5" / "Include" / "ALXQuantCore" / "Modules" / "MacroRegimeEngine.mqh"
+    mqh_path = REPO_ROOT / "MQL5" / "MQL5" / "Include" / "ALXQuantCore" / "Modules" / "MacroRegimeEngine.mqh"
     if not mqh_path.exists():
         return {"ok": False, "error": f"MacroRegimeEngine.mqh not found: {mqh_path}"}
 
@@ -1287,7 +1288,7 @@ def _sanitize_calibration(obj):
 @app.get("/api/calibration/list")
 async def calibration_list():
     """List saved calibration reports (one per symbol+tf)."""
-    data_dir = PROJECT_ROOT / "data" / "mql5"
+    data_dir = REPO_ROOT / "data" / "mql5"
     files = []
     if data_dir.exists():
         for f in sorted(data_dir.glob("calibration_*.json")):
@@ -1316,7 +1317,7 @@ async def calibration_list():
 @app.get("/api/calibration/json/{symbol}")
 async def calibration_json(symbol: str, tf: str = "M5"):
     """Return a saved calibration report inline (JSON-safe)."""
-    data_dir = PROJECT_ROOT / "data" / "mql5"
+    data_dir = REPO_ROOT / "data" / "mql5"
     json_path = data_dir / f"calibration_{symbol}_{tf}.json"
     if not json_path.exists():
         return {"ok": False, "error": f"Calibration report not found: {json_path}"}
@@ -1331,7 +1332,7 @@ async def calibration_json(symbol: str, tf: str = "M5"):
 @app.delete("/api/calibration/delete/{symbol}")
 async def calibration_delete(symbol: str, tf: str = "M5"):
     """Delete a saved calibration report."""
-    data_dir = PROJECT_ROOT / "data" / "mql5"
+    data_dir = REPO_ROOT / "data" / "mql5"
     json_path = data_dir / f"calibration_{symbol}_{tf}.json"
     if not json_path.exists():
         return {"ok": False, "error": f"Calibration report not found: {json_path}"}
@@ -1343,7 +1344,7 @@ async def calibration_delete(symbol: str, tf: str = "M5"):
 
 
 # ─── NLP Sentiment (external AI news module) ───
-NLP_DB_PATH = PROJECT_ROOT / "data" / "nlp_sentiment.duckdb"
+NLP_DB_PATH = REPO_ROOT / "data" / "nlp_sentiment.duckdb"
 
 _nlp_db_manager = None
 
@@ -1674,7 +1675,7 @@ async def get_settings():
     from config import config as cfg
 
     status = get_db_status()
-    env_path = PROJECT_ROOT / ".env"
+    env_path = REPO_ROOT / ".env"
     mt5_path = os.getenv("MT5_PATH", "").replace("\\", "/")
     mt5_account = os.getenv("MT5_ACCOUNT", "0")
     mt5_server = os.getenv("MT5_SERVER", "")
@@ -1699,7 +1700,7 @@ async def get_settings():
 async def save_mt5_settings(data: dict = Body(...)):
     """Update MT5 credentials in .env."""
     try:
-        env_path = PROJECT_ROOT / ".env"
+        env_path = REPO_ROOT / ".env"
         if not env_path.exists():
             return JSONResponse({"status": "error", "message": ".env file not found"}, status_code=404)
 
@@ -1738,7 +1739,7 @@ async def save_mt5_settings(data: dict = Body(...)):
 async def save_api_keys(data: dict = Body(...)):
     """Update API keys (LLM / news) in .env. Only changed keys are sent."""
     try:
-        env_path = PROJECT_ROOT / ".env"
+        env_path = REPO_ROOT / ".env"
         if not env_path.exists():
             return JSONResponse({"status": "error", "message": ".env file not found"}, status_code=404)
 
@@ -2012,7 +2013,7 @@ def _auto_repair_loop():
 @app.get("/api/dante/stats")
 async def dante_stats():
     try:
-        sys.path.insert(0, str(PROJECT_ROOT / "agents"))
+        sys.path.insert(0, str(PROJECT_ROOT / "Modulos" / "agents"))
         from dante.core.knowledge import KnowledgeBase
         kb = KnowledgeBase()
         stats = kb.get_stats()
@@ -2025,7 +2026,7 @@ async def dante_stats():
 @app.get("/api/dante/findings")
 async def dante_findings(severity: str = None, file_path: str = None):
     try:
-        sys.path.insert(0, str(PROJECT_ROOT / "agents"))
+        sys.path.insert(0, str(PROJECT_ROOT / "Modulos" / "agents"))
         from dante.core.knowledge import KnowledgeBase
         kb = KnowledgeBase()
         findings = kb.get_findings(file_path=file_path, severity=severity)
@@ -2038,7 +2039,7 @@ async def dante_findings(severity: str = None, file_path: str = None):
 @app.get("/api/dante/report")
 async def dante_report():
     try:
-        report_dir = PROJECT_ROOT / "agents" / "dante" / "reports"
+        report_dir = PROJECT_ROOT / "Modulos" / "agents" / "dante" / "reports"
         reports = sorted(report_dir.glob("dante-report-*.md"), reverse=True)
         if not reports:
             return {"ok": True, "content": "Nenhum relatório encontrado. Execute um scan primeiro.", "path": ""}
@@ -2052,11 +2053,11 @@ async def dante_report():
 @app.post("/api/dante/scan")
 async def dante_scan(body: dict = Body(default={})):
     try:
-        sys.path.insert(0, str(PROJECT_ROOT / "agents"))
+        sys.path.insert(0, str(PROJECT_ROOT / "Modulos" / "agents"))
         from dante.config import DanteConfig
         from dante.core.orchestrator import run_scan
         cfg = DanteConfig()
-        cfg.scan.target_dir = PROJECT_ROOT
+        cfg.scan.target_dir = REPO_ROOT
         use_llm = body.get("use_llm", False)
         result = run_scan(cfg=cfg, use_llm=use_llm)
         return {"ok": True, **result}
@@ -2067,7 +2068,7 @@ async def dante_scan(body: dict = Body(default={})):
 @app.post("/api/dante/clear")
 async def dante_clear():
     try:
-        sys.path.insert(0, str(PROJECT_ROOT / "agents"))
+        sys.path.insert(0, str(PROJECT_ROOT / "Modulos" / "agents"))
         from dante.core.knowledge import KnowledgeBase
         kb = KnowledgeBase()
         kb.clear_session()
@@ -2077,7 +2078,7 @@ async def dante_clear():
         return {"ok": False, "error": str(e)}
 
 
-_DANTE_EXCLUDE_FILE = PROJECT_ROOT / "data" / "dante_exclude_folders.json"
+_DANTE_EXCLUDE_FILE = REPO_ROOT / "data" / "dante_exclude_folders.json"
 
 
 def _load_dante_exclude() -> dict:
@@ -2126,7 +2127,7 @@ async def dante_remove_exclude_folder(body: dict = Body(default={})):
 
 # ── Agent Tasks Endpoints ──
 
-_TASKS_FILE = PROJECT_ROOT / "data" / "agent_tasks.json"
+_TASKS_FILE = REPO_ROOT / "data" / "agent_tasks.json"
 
 
 def _load_tasks() -> dict:
@@ -2198,7 +2199,7 @@ async def run_agent_task_now(body: dict = Body(default={})):
 
 # ── Agent Status Endpoints ──
 
-_AGENTS_STATUS_FILE = PROJECT_ROOT / "data" / "agents_status.json"
+_AGENTS_STATUS_FILE = REPO_ROOT / "data" / "agents_status.json"
 
 _AGENTS_INITIAL = {
     "ATLAS":  {"role": "Supervisor Geral / Orquestrador",   "group": "command"},
