@@ -8,6 +8,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
+REPO_ROOT = ROOT.parent
 
 VERSION_MAP = {
     # Core
@@ -108,7 +109,7 @@ def get_old_version(content: str) -> str:
 
 
 def main():
-    mql5_include = ROOT / "MQL5" / "MQL5" / "Include" / "ALXQuantCore"
+    mql5_include = REPO_ROOT / "MQL5" / "MQL5" / "Include" / "ALXQuantCore"
     updated = 0
     for rel_path, new_ver in VERSION_MAP.items():
         file_path = mql5_include / rel_path

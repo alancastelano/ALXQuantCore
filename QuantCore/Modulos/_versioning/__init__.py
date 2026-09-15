@@ -129,7 +129,7 @@ class CompatibilityChecker:
 
     def __init__(self, manifest_path: Optional[Path] = None):
         if manifest_path is None:
-            # manifest.json is at project root, not in Modulos/
+            # manifest.json is at QuantCore root, not in Modulos/
             manifest_path = Path(__file__).parent.parent.parent / "manifest.json"
         self.manifest_path = manifest_path
         self._manifest = self._load_manifest()

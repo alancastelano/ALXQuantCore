@@ -16,7 +16,7 @@ import os
 import sys
 from datetime import datetime
 
-sys.path.insert(0, r"C:\ALXQuant")
+sys.path.insert(0, r"C:\ALXQuant\QuantCore")
 
 
 def health_report() -> dict:

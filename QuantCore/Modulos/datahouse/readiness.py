@@ -15,9 +15,9 @@ import subprocess
 import sys
 from datetime import datetime, timedelta
 
-ENGINE_VENV_PYTHON = r"C:\ALXQuant\.venv\Scripts\python.exe"
-CLI_COLLECTOR = r"C:\ALXQuant\Modulos\datahouse\cli_collector.py"
-RISK_ENGINE = r"C:\ALXQuant\Modulos\risk_sentiment\engine.py"
+ENGINE_VENV_PYTHON = r"C:\ALXQuant\QuantCore\.venv\Scripts\python.exe"
+CLI_COLLECTOR = r"C:\ALXQuant\QuantCore\Modulos\datahouse\cli_collector.py"
+RISK_ENGINE = r"C:\ALXQuant\QuantCore\Modulos\risk_sentiment\engine.py"
 
 
 def readiness_report() -> dict:

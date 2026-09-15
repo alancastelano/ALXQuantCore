@@ -39,7 +39,7 @@ from scipy.stats import mstats
 import signal as _signal
 
 warnings.filterwarnings("ignore")
-sys.path.insert(0, r"C:\ALXQuant")
+sys.path.insert(0, r"C:\ALXQuant\QuantCore")
 
 # DB central no ALXQuant (fonte única de verdade)
 from Modulos.datahouse.collector import get_connection

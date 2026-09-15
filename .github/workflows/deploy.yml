@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.14'
       - run: pip install ruff
-      - run: ruff check Modulos/ --exclude __pycache__
+      - run: ruff check QuantCore/Modulos/ --exclude __pycache__
 
   build-node:
     runs-on: ubuntu-latest
@@ -30,12 +30,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: cd ALXQuantCommandCenter && npm ci && npm run build
+      - run: cd CommandCenter && npm ci && npm run build
       - name: Upload dist artifact
         uses: actions/upload-artifact@v4
         with:
           name: commandcenter-dist
-          path: ALXQuantCommandCenter/dist/
+          path: CommandCenter/dist/
 
   deploy-vps:
     needs: build-node
@@ -52,7 +52,7 @@ jobs:
           script: |
             cd C:/ALXQuant
             powershell.exe -Command "git pull origin main"
-            powershell.exe -Command "& 'C:/ALXQuant/.venv/Scripts/pip.exe' install -r requirements.txt"
-            cd C:/ALXQuant/ALXQuantCommandCenter
+            powershell.exe -Command "& 'C:/ALXQuant/QuantCore/.venv/Scripts/pip.exe' install -r QuantCore/requirements.txt"
+            cd C:/ALXQuant/CommandCenter
             powershell.exe -Command "& 'C:/Program Files/nodejs/node.exe' node_modules/.bin/vite build"
             echo "Deploy completed at $(Get-Date)"

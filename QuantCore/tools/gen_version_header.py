@@ -155,8 +155,9 @@ def generate_version_header(manifest_path: Path, output_path: Path) -> None:
 
 if __name__ == "__main__":
     root = Path(__file__).parent.parent
+    repo_root = root.parent
     manifest = root / "manifest.json"
-    output = root / "MQL5" / "MQL5" / "Include" / "ALXQuantCore" / "Version.mqh"
+    output = repo_root / "MQL5" / "MQL5" / "Include" / "ALXQuantCore" / "Version.mqh"
     try:
         generate_version_header(manifest, output)
     except Exception as e:

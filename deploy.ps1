@@ -5,9 +5,9 @@
 $ErrorActionPreference = "Stop"
 
 $ALXQUANT_PATH = "C:\ALXQuant"
-$VENV_PYTHON = "C:\ALXQuant\.venv\Scripts\python.exe"
-$REQUIREMENTS = "C:\ALXQuant\requirements.txt"
-$CC_PATH = "C:\ALXQuant\ALXQuantCommandCenter"
+$VENV_PYTHON = "C:\ALXQuant\QuantCore\.venv\Scripts\python.exe"
+$REQUIREMENTS = "C:\ALXQuant\QuantCore\requirements.txt"
+$CC_PATH = "C:\ALXQuant\CommandCenter"
 $NODE_JS = "C:\Program Files\nodejs\node.exe"
 
 Write-Host "=== ALXQuant Deploy ===" -ForegroundColor Cyan

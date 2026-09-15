@@ -220,12 +220,13 @@ O DataHouse passou a ter uma **fonte única e visível** de cobertura e atualiza
   não são mais reportadas como `healthy` — agora `indeterminadas` com
   `problem=True`, eliminando o falso "14/14 healthy"). Instalação única do
   bootstrap (elevado): `schtasks /create /tn "ALX-DataHouse-Bootstrap" /tr
-  "<pythonw> Modulos\datahouse\ensure_tasks.py --log data\logs\ensure_tasks.log"
+  "<pythonw> QuantCore\Modulos\datahouse\ensure_tasks.py --log data\logs\ensure_tasks.log"
   /sc onstart /ru SYSTEM /f`.
 
 ## Terminal
 
-```
+```powershell
+cd C:\ALXQuant\QuantCore
 python -m gui.html.serve
 # http://127.0.0.1:8000
 ```

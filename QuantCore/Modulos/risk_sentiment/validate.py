@@ -19,7 +19,7 @@ from Modulos.risk_sentiment.engine import (
 )
 
 warnings.filterwarnings("ignore")
-sys.path.insert(0, r"C:\ALXQuant")
+sys.path.insert(0, r"C:\ALXQuant\QuantCore")
 
 FRED = Fred(api_key=config.fred.api_key)
 

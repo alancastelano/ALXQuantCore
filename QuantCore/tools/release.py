@@ -20,11 +20,12 @@ from typing import List, Tuple, Optional
 
 
 ROOT = Path(__file__).parent.parent
+REPO_ROOT = ROOT.parent
 VERSION_FILE = ROOT / "VERSION"
 MANIFEST_FILE = ROOT / "manifest.json"
-CHANGELOG_MQL = ROOT / "CHANGELOG_MQL.md"
-CHANGELOG_PY = ROOT / "CHANGELOG_PYTHON.md"
-README_FILE = ROOT / "README.md"
+CHANGELOG_MQL = REPO_ROOT / "CHANGELOG_MQL.md"
+CHANGELOG_PY = REPO_ROOT / "CHANGELOG_PYTHON.md"
+README_FILE = REPO_ROOT / "README.md"
 
 
 class ReleaseError(Exception):
@@ -152,8 +153,8 @@ def prepend_changelog(changelog_path: Path, entry: str) -> None:
 
 
 def create_release_commit(version: str, message: str) -> str:
-    run_cmd(["git", "add", "VERSION", "manifest.json", "MQL5/MQL5/Include/ALXQuantCore/Version.mqh",
-             "CHANGELOG_MQL.md", "CHANGELOG_PYTHON.md", "README.md"])
+    run_cmd(["git", "add", ":/QuantCore/VERSION", ":/QuantCore/manifest.json", ":/MQL5/MQL5/Include/ALXQuantCore/Version.mqh",
+             ":/CHANGELOG_MQL.md", ":/CHANGELOG_PYTHON.md", ":/README.md"])
     commit_msg = f"release: {version}\n\n{message}"
     result = run_cmd(["git", "commit", "-m", commit_msg])
     # Get commit hash

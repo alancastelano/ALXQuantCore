@@ -21,6 +21,12 @@ Transformar ALXQuant em uma plataforma completa e profissional de engenharia qua
 
 ```
 C:\ALXQuant
+├── QuantCore/               # Sistema Python (venv, requirements, manifest, VERSION)
+│   ├── Modulos/             # asset_dna, risk_sentiment, alpha_miner, datahouse,
+│   │                        # macro_state, news, calibration, agents/dante...
+│   ├── gui/html/            # Terminal Bloomberg-style :8000 (FastAPI + HTML/CSS/JS)
+│   └── tools/               # Release/versionamento MQL5
+├── CommandCenter/           # Sistema React (frontend; backend :8500 futuro)
 ├── data/                    # Camada de dados centralizada (DuckDB)
 │   ├── ALXQuantCore.duckdb   # Banco de dados columnar principal (138MB)
 │   ├── datasets/             # CSVs OHLC brutos (M5)
@@ -29,20 +35,13 @@ C:\ALXQuant
 │   ├── report/               # PDFs de relatórios gerados
 │   ├── cache/asset_dna/      # Cache joblib do asset_dna
 │   └── image/                # Assets (logo)
-├── Modulos/                # Módulos Python (estrutura principal)
-│   ├── asset_dna/           # Perfilamento de ativos (HMM, Hurst, entropia, MI, TE)
-│   ├── risk_sentiment/      # Análise macroeconômica PCA + sinal RORO
-│   ├── alpha_miner/         # Mineração de alpha
-│   ├── datahouse/           # Camada de coleta e validação de dados
-│   └── _old_not_used/       # Legado/deprecated
-├── gui/                    # Terminal Bloomberg-style (FastAPI + HTML/CSS/JS)
-│   └── html/                # Backend web com 10 endpoints
 ├── MQL5/                   # Código MQL5 (execução)
 │   └── MQL5/               # Subpasta do MetaTrader
 │       ├── Experts/        # Expert Advisors
 │       ├── Include/        # ALXQuantCore (RiskManager, Strategy, Execution)
 │       ├── Indicators/     # Indicadores customizados
 │       └── Scripts/        # Exemplos e testes
+├── deploy.ps1 / .github/    # Deploy VPS Londres
 └── Documentação/           # Arquivos de documentação e governança
 ```
 
