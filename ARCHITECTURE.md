@@ -64,17 +64,22 @@ C:\ALXQuant
 
 ```sql
 -- Tabelas principais (fonte única de verdade)
+-- NOTA: ohlc_prices é criada/atualizada em runtime por
+-- Modulos/datahouse/collector.init_db() (idempotente) — este bloco espelha o código.
 CREATE TABLE ohlc_prices (
   symbol VARCHAR,
   timeframe VARCHAR,
-  datetime DATETIME,
+  time BIGINT,
   open DOUBLE,
   high DOUBLE,
   low DOUBLE,
   close DOUBLE,
-  volume DOUBLE,
-  date_key INTEGER
+  tick_volume BIGINT,
+  spread INTEGER,
+  real_volume BIGINT
 );
+
+CREATE UNIQUE INDEX idx_ohlc_sym_tf_time ON ohlc_prices(symbol, timeframe, time);
 
 CREATE TABLE risk_labels (
   id INTEGER PRIMARY KEY,

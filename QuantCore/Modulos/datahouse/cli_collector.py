@@ -12,9 +12,9 @@ from datetime import datetime
 
 sys.path.insert(0, r"C:\ALXQuant\QuantCore")
 try:
-    from .collector import incremental_update, smart_update, full_update
+    from .collector import incremental_update, smart_update, full_update, init_db
 except ImportError:
-    from Modulos.datahouse.collector import incremental_update, smart_update, full_update
+    from Modulos.datahouse.collector import incremental_update, smart_update, full_update, init_db
 
 
 def _write_log(log_path: str, result: dict):
@@ -77,6 +77,8 @@ def main():
 
     _redirect_when_windowless(args.log)
     _install_crash_hook(args.log)
+
+    init_db()  # garante dirs + schema em clones frescos / recoleta do zero
 
     if args.mode == "full":
         result = full_update(args.symbol, args.tf, years=args.years)

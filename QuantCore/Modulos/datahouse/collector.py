@@ -43,6 +43,59 @@ TIMEFRAME_MAP = {
 
 CHUNK_DAYS = 60
 
+# Diretórios de runtime exigidos (data/* é gitignored: clones frescos não os têm).
+# Espelha o layout documentado em ARCHITECTURE.md (Camada de Dados).
+REQUIRED_DATA_DIRS = ("logs", "mql5", "image", "cache", "state")
+
+
+def ensure_data_dirs() -> Path:
+    """Cria os subdiretórios de data/ se ausentes. Idempotente."""
+    data_dir = config.PROJECT_ROOT / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+    for sub in REQUIRED_DATA_DIRS:
+        (data_dir / sub).mkdir(parents=True, exist_ok=True)
+    return data_dir
+
+
+OHLC_DDL = """
+CREATE TABLE IF NOT EXISTS ohlc_prices (
+  symbol VARCHAR,
+  timeframe VARCHAR,
+  time BIGINT,
+  open DOUBLE,
+  high DOUBLE,
+  low DOUBLE,
+  close DOUBLE,
+  tick_volume BIGINT,
+  spread INTEGER,
+  real_volume BIGINT
+)
+"""
+
+OHLC_INDEX_DDL = """
+CREATE UNIQUE INDEX IF NOT EXISTS idx_ohlc_sym_tf_time
+ON ohlc_prices(symbol, timeframe, time)
+"""
+
+
+def init_db(db_path=None) -> str:
+    """Garante arquivo + schema do DuckDB (cria se ausente). Idempotente.
+
+    Cobre clones frescos e o fluxo 'recoleta do zero': o coletor nunca
+    mais falha por tabela ou diretório inexistente.
+    """
+    ensure_data_dirs()
+    target = Path(db_path) if db_path else Path(DB_PATH)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    conn = duckdb.connect(str(target))
+    try:
+        conn.execute(OHLC_DDL)
+        conn.execute(OHLC_INDEX_DDL)
+        conn.commit()
+    finally:
+        conn.close()
+    return str(target)
+
 # Canal de simbolos internos (canonicos no DB) -> simbolo do broker MT5.
 MT5_SYMBOL_ALIAS = {
     "US100": "NAS100",

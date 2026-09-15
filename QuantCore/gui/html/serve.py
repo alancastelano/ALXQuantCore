@@ -115,6 +115,12 @@ def _ensure_indexes():
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    try:
+        from Modulos.datahouse.collector import init_db
+        init_db()  # garante dirs + schema ohlc_prices em clones frescos
+        _push_log("INFO", "Startup: init_db OK")
+    except Exception as ex:
+        _push_log("WARNING", f"Startup: init_db falhou — {ex}")
     _ensure_indexes()
     _threading.Thread(target=_warm_macro_cache, daemon=True).start()
     yield
@@ -140,6 +146,11 @@ def _warm_macro_cache():
 app = FastAPI(title="ALXQUANT Terminal API", version="10.3.3", lifespan=lifespan)
 
 HERE = Path(__file__).parent
+
+# Runtime dirs (fresh clones lack data/* which is gitignored).
+# Must run before StaticFiles mounts below (Starlette raises if missing).
+for _sub in ("logs", "mql5", "image", "cache", "state"):
+    (REPO_ROOT / "data" / _sub).mkdir(parents=True, exist_ok=True)
 
 # â”€â”€ Static files (CSS, JS) â”€â”€
 app.mount("/css", StaticFiles(directory=str(HERE / "css")), name="css")
