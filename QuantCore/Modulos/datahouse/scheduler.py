@@ -22,7 +22,7 @@ from datetime import datetime, timedelta
 from typing import Any, Optional
 
 APP_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-DATA_DIR = os.path.join(APP_ROOT, "data")
+DATA_DIR = os.path.normpath(os.path.join(APP_ROOT, "..", "data"))  # repo root: data/ is the shared bridge (MQL5 Kernel32)
 SCHEDULES_PATH = os.path.join(DATA_DIR, "schedules.json")
 LOG_DIR = os.path.join(DATA_DIR, "logs")
 
