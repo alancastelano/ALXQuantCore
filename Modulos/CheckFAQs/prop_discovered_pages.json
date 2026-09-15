@@ -1,0 +1,341 @@
+{
+  "The5ers": [
+    {
+      "type": "homepage",
+      "url": "https://www.the5ers.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    },
+    {
+      "type": "faq",
+      "url": "https://www.the5ers.com/faqs/",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "faq",
+      "url": "https://www.the5ers.com/futures-faqs/",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    }
+  ],
+  "FundedNext": [
+    {
+      "type": "homepage",
+      "url": "https://www.fundednext.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    },
+    {
+      "type": "faq",
+      "url": "https://helpfutures.fundednext.com",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "faq",
+      "url": "https://help.fundednext.com",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "pricing",
+      "url": "https://app.fundednext.com/purchase/choose-plan?market-type=cfds&challenge-type=stellar-2-step&balance=%24200K&quantity=1",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    }
+  ],
+  "FundingPips": [
+    {
+      "type": "homepage",
+      "url": "https://www.fundingpips.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    },
+    {
+      "type": "faq",
+      "url": "https://help.fundingpips.com",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "faq",
+      "url": "https://www.fundingpips.com/terms-and-conditions",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "pricing",
+      "url": "https://app.fundingpips.com/checkout?template=a649325f-bf0c-4445-bc8d-eaa1b415009b",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "pricing",
+      "url": "https://app.fundingpips.com/checkout?template=4930db45-4e40-4a7b-868f-30af6720b812",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    }
+  ],
+  "Alpha Capital": [
+    {
+      "type": "homepage",
+      "url": "https://www.alphacapital.co.uk",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    }
+  ],
+  "Goat Funded Trader": [
+    {
+      "type": "homepage",
+      "url": "https://www.goatfundedtrader.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    },
+    {
+      "type": "faq",
+      "url": "https://help.goatfundedtrader.com/en/?trakyo_id=EqqfCx27thru0pKC",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "faq",
+      "url": "https://help.goatfundedtrader.com/?trakyo_id=EqqfCx27thru0pKC",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    }
+  ],
+  "E8 Markets": [
+    {
+      "type": "homepage",
+      "url": "https://www.e8markets.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    },
+    {
+      "type": "faq",
+      "url": "https://help.e8markets.com/en/",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "faq",
+      "url": "https://www.e8markets.com/e8-markets-terms-and-conditions",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "pricing",
+      "url": "https://www.e8markets.com/compare-simfi-funded-accounts",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    }
+  ],
+  "FTMO": [
+    {
+      "type": "homepage",
+      "url": "https://www.ftmo.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    },
+    {
+      "type": "faq",
+      "url": "https://www.ftmo.com/en/faq/",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "faq",
+      "url": "https://ftmo.com/en/faq/how-to-start/",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    }
+  ],
+  "Maven": [],
+  "Blue Guardian": [
+    {
+      "type": "homepage",
+      "url": "https://www.blueguardian.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    },
+    {
+      "type": "faq",
+      "url": "https://help.blueguardian.com/en",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "faq",
+      "url": "https://www.blueguardian.com/terms-and-conditions",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "pricing",
+      "url": "https://checkout.blueguardian.com/?add-to-cart=705463",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    }
+  ],
+  "Audacity Capital": [
+    {
+      "type": "homepage",
+      "url": "https://www.audacitycapital.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    }
+  ],
+  "Funded Trading Plus": [
+    {
+      "type": "homepage",
+      "url": "https://www.fundedtradingplus.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    },
+    {
+      "type": "faq",
+      "url": "https://www.fundedtradingplus.com/terms-conditions/",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "pricing",
+      "url": "https://www.fundedtradingplus.com/prop-trading-challenges/instant-funding",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "pricing",
+      "url": "https://www.fundedtradingplus.com/prop-trading-challenges/one-step",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    }
+  ],
+  "Hantec Trader": [
+    {
+      "type": "homepage",
+      "url": "https://www.hantecmarkets.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    }
+  ],
+  "The Trading Pit": [
+    {
+      "type": "homepage",
+      "url": "https://www.thetradingpit.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    },
+    {
+      "type": "faq",
+      "url": "https://support.thetradingpit.com/",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "faq",
+      "url": "https://www.thetradingpit.com/general-terms-and-conditions",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    }
+  ],
+  "Moneta Funded": [
+    {
+      "type": "homepage",
+      "url": "https://www.monetafunded.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    },
+    {
+      "type": "faq",
+      "url": "https://help.monetafunded.com/",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "faq",
+      "url": "https://www.monetafunded.com/terms-and-conditions/",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "pricing",
+      "url": "https://www.monetafunded.com/checkout/",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    },
+    {
+      "type": "pricing",
+      "url": "https://www.monetafunded.com/one-step/",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    }
+  ],
+  "Axi Select": [
+    {
+      "type": "homepage",
+      "url": "https://www.axiselect.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    },
+    {
+      "type": "faq",
+      "url": "https://www.axiselect.com/int/legal-documentation/website-terms-conditions",
+      "selector": "auto",
+      "click_selectors": [],
+      "check_text_diff": true
+    }
+  ],
+  "FXIFY": [
+    {
+      "type": "homepage",
+      "url": "https://www.fxify.com",
+      "selector": "body",
+      "click_selectors": [],
+      "check_text_diff": false
+    }
+  ]
+}

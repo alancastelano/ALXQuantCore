@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>ALXQUANT v10.3.3 — Data Terminal</title>
+    <link rel="stylesheet" href="css/alxquant.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="header-left">
+            <div class="terminal-title">● ALXQUANT v10.3.3</div>
+            <div class="datetime" id="headerDatetime">—</div>
+            <div class="market-status" id="headerMarketStatus">
+                <span class="market-item" data-key="mt5">MT5 —</span>
+                <span class="market-item" data-key="db">DB —</span>
+                <span class="market-item" data-key="health">HEALTH —</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="menu-items">
+                <span class="menu-item" onclick="toggleHelp()">HELP</span>
+                <span class="menu-item" onclick="toggleSettings()">SETTINGS</span>
+            </div>
+            <div class="user-profile">AQ</div>
+        </div>
+    </div>
+
+    <!-- Top Indices Bar -->
+    <div class="indices-bar" id="indicesBar">
+        <div class="index-item"><div class="index-label">VIX <span style="color:#444;font-size:9px">VOLATILITY</span></div><div class="index-value" data-key="vix">—</div><div class="index-change" data-key="vix_chg"></div></div>
+        <div class="index-item"><div class="index-label">DOLLAR IDX <span style="color:#444;font-size:9px">DXY</span></div><div class="index-value" data-key="dxy">—</div><div class="index-change" data-key="dxy_chg"></div></div>
+        <div class="index-item"><div class="index-label">S&P 500 <span style="color:#444;font-size:9px">SPY</span></div><div class="index-value" data-key="equity_sp">—</div><div class="index-change" data-key="equity_sp_chg"></div></div>
+        <div class="index-item"><div class="index-label">GOLD <span style="color:#444;font-size:9px">GLD</span></div><div class="index-value" data-key="gold">—</div><div class="index-change" data-key="gold_chg"></div></div>
+        <div class="index-item"><div class="index-label">US 10Y <span style="color:#444;font-size:9px">YIELD</span></div><div class="index-value" data-key="yield_10y">—</div><div class="index-change" data-key="yield_10y_chg"></div></div>
+        <img src="/brand/logo.png" class="brand-logo-top" alt="ALXQuant">
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Center Panel - Tabs -->
+        <div class="panel">
+            <div class="panel-header">
+                <!-- Tab Bar -->
+                <div class="tab-bar" id="tabBar">
+                    <button class="tab-btn active" data-tab="datahouse" title="Datahouse: Scheduler, Health, Metrics">DATAHOUSE</button>
+                    <button class="tab-btn" data-tab="assetdna" title="Asset DNA Profiler">ASSET DNA</button>
+                    <button class="tab-btn" data-tab="regime" title="Regime Analysis: Hurst, ADX, Regime Labels">REGIME</button>
+                    <button class="tab-btn" data-tab="risksentiment" title="Risk Sentiment: RORO, KCRORO, Factors">RISK SENTIMENT</button>
+                    <button class="tab-btn" data-tab="news" title="News: ForexFactory Calendar, economic events">NEWS</button>
+                    <button class="tab-btn" data-tab="nlpsentiment" title="NLP Sentiment: News, Calendar">NLP SENTIMENT</button>
+                    <button class="tab-btn" data-tab="dataminer" title="Data Miner: Alpha Research, ML">DATA MINER</button>
+                    <button class="tab-btn" data-tab="calibration" title="EA Calibrator: Asset DNA + MacroRegime + DataMiner">EA CALIBRATOR</button>
+                    <button class="tab-btn" data-tab="checkfaqs" title="Check FAQs: monitor de mesas proprietárias">CHECK FAQs</button>
+                    <button class="tab-btn" data-tab="agents" title="AI Agents: dashboard de agentes">AGENTES</button>
+                </div>
+            </div>
+            <div class="panel-content">
+                <!-- Tab Content Containers -->
+                <div class="tab-content active" id="tabDatahouse">
+                    <!-- Datahouse content will be injected here by JS -->
+                </div>
+                <div class="tab-content" id="tabAssetDna">
+                    <!-- Asset DNA content -->
+                </div>
+                <div class="tab-content" id="tabRegime">
+                    <!-- Regime content -->
+                </div>
+                <div class="tab-content" id="tabRiskSentiment">
+                    <!-- Risk Sentiment content -->
+                </div>
+                <div class="tab-content" id="tabNews">
+                    <!-- News: ForexFactory Calendar -->
+                </div>
+                <div class="tab-content" id="tabNlpSentiment">
+                    <!-- NLP Sentiment content -->
+                </div>
+                <div class="tab-content" id="tabDataMiner">
+                    <!-- Data Miner content -->
+                </div>
+                <div class="tab-content" id="tabCalibration">
+                    <!-- EA Calibration content -->
+                </div>
+                <div class="tab-content" id="tabCheckfaqs">
+                    <!-- Check FAQs content -->
+                </div>
+                <div class="tab-content" id="tabAgents">
+                    <!-- AI Agents dashboard -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- DNA Report Viewer Modal -->
+    <div class="modal-overlay" id="dnaViewerModal" onclick="closeModal('dnaViewerModal')">
+        <div class="modal" onclick="event.stopPropagation()" style="width:90vw;height:85vh;max-width:1200px">
+            <div class="panel-header" style="justify-content:space-between">
+                <span id="dnaViewerTitle">Report Viewer</span>
+                <span onclick="closeModal('dnaViewerModal')" style="cursor:pointer;font-size:16px;padding:0 8px">✕</span>
+            </div>
+            <div class="panel-content" id="dnaViewerContent" style="padding:0;overflow:auto;flex:1;min-height:0"></div>
+        </div>
+    </div>
+
+    <!-- HELP Modal -->
+    <div class="modal-overlay" id="helpModal" onclick="closeModal('helpModal')">
+        <div class="modal" onclick="event.stopPropagation()">
+            <div class="panel-header" style="border:none;background:transparent">HELP <span style="color:#666;font-weight:normal;font-size:11px">Keyboard & commands</span></div>
+            <div class="panel-content" style="overflow-y:auto;height:80%">
+                <table class="watchlist-table">
+                    <thead><tr><th>KEY</th><th>ACTION</th></tr></thead>
+                    <tbody>
+                        <tr><td><span class="tf-btn" style="padding:2px 8px">F5</span></td><td>Refresh all data</td></tr>
+                        <tr><td><span class="tf-btn" style="padding:2px 8px">1-6</span></td><td>Switch tabs (Datahouse, Asset DNA, Regime, Risk, NLP, Miner)</td></tr>
+                        <tr><td><span class="tf-btn" style="padding:2px 8px">R</span></td><td>Register Windows tasks</td></tr>
+                        <tr><td><span class="tf-btn" style="padding:2px 8px">U</span></td><td>Unregister Windows tasks</td></tr>
+                        <tr><td><span class="tf-btn" style="padding:2px 8px">H</span></td><td>Repair all stale data domains</td></tr>
+                        <tr><td><span class="tf-btn" style="padding:2px 8px">ESC</span></td><td>Close modal</td></tr>
+                    </tbody>
+                </table>
+                <div style="margin-top:15px;color:#666;font-size:11px">
+                    ALXQUANT Data Terminal — v10.3.3<br>
+                    Backend: FastAPI + DuckDB → gui/html/serve.py<br>
+                    Data sources: MT5 (OHLC), FRED (macro), Yahoo (risk)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SETTINGS Modal -->
+    <div class="modal-overlay" id="settingsModal" onclick="closeModal('settingsModal')">
+        <div class="modal" onclick="event.stopPropagation()">
+            <div class="panel-header" style="border:none;background:transparent">SETTINGS <span style="color:#666;font-weight:normal;font-size:11px">Configuration</span></div>
+            <div class="panel-content" id="settingsContent" style="overflow-y:auto;height:80%">
+                <p style="color:#666;font-size:11px">Loading configuration...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/alxquant.js"></script>
+</body>
+</html>

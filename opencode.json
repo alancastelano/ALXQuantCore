@@ -1,0 +1,121 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": "allow",
+  "lsp": false,
+  "snapshot": false,
+  "compaction": {
+    "auto": true,
+    "prune": true,
+    "reserved": 10000
+  },
+
+  "watcher": {
+    "ignore": [
+      // Versão de controle - segurança e rastreamento
+      ".git/**",
+      ".github/**",
+      ".gitlab/**",
+      ".hg/**",
+      ".svn/**",
+
+      // Ambientes virtuais - gerenciados por gerenciadores de pacotes Python
+      ".venv/**",
+      "venv/**",
+      ".env",
+
+      // Cache e artefatos de teste Python - gerados em runtime
+      "__pycache__/**",
+      ".pytest_cache/**",
+      ".coverage/**",
+      ".coverage.*",
+
+      // Dependências Node e artefatos de build
+      "node_modules/**",
+      ".opencode/**",
+      "npm-debug.log",
+
+      // Logs e saída de depuração - dados operacionais
+      "logs/**",
+      "log/**",
+      "debug.log",
+      "*.log",
+      "MQL5/Bases/**",
+      "MQL5/Config/**",
+      "MQL5/Profiles/**",
+      "MQL5/logs/**",
+      "MQL5/temp/**",
+      "MQL5/Tester/**",
+      "MQL5/MQL5/Profiles/**",
+      "MQL5/MQL5/logs/**",
+      "MQL5/MQL5/temp/**",
+      "MQL5/MQL5/Tester/**",
+      "MQL5/MQL5/Files/Logs/**",
+      "*.hcc",
+      "*.hc",
+      "*.hcs",
+      "*.tkc",
+      "*.ex4",
+      "*.ex5",
+      "*.chr",
+      "*.wnd",
+
+      // Backups e arquivos temporários - não-essenciais
+      "backup/**",
+      "backups/**",
+      ".tmp",
+      "tmp/**",
+      "temp/**",
+
+      // Storage de datasets - grandes volumes de dados binários
+      "datasets/**",
+      "data/raw/**",
+      "data/cache/**",
+      "data/download/**",
+      "data/export/**",
+
+      // Modelos de machine learning e vetores
+      "models/**",
+      "*.h5",
+      "*.hdf5",
+
+      // Distribuição e artefatos de build
+      "dist/**",
+      "build/**",
+      "*.egg",
+      "*.whl",
+
+      // Binários executáveis
+      "*.exe",
+      "*.dll",
+      "*.so",
+      "*.bin",
+
+      // Arquivos de archive para backup/distribuição
+      "*.zip",
+      "*.7z",
+      "*.tar",
+      "*.gz",
+
+      // Configuração - algumas configs permanecem (*.ini, *.cfg)
+      ".env.*",
+
+      // Armazenamento de Data Lake
+      "datalake/**",
+
+      // Orquestração de containers
+      "kube/**",
+      ".docker-compose.override.yml",
+
+      // Arquivos específicos de IDE
+      ".vscode/**",
+      ".idea/**",
+      ".sublime-project",
+      ".sublime-workspace",
+
+      // Arquivos temporários específicos de sistema operacional
+      "Thumbs.db",
+      "Desktop.ini",
+      "*.DS_Store"
+    ]
+  }
+}

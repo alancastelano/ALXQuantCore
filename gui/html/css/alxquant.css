@@ -1,0 +1,1602 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* ── Header ── */
+.header {
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.terminal-title {
+    color: #00ff88;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.datetime {
+    color: #888;
+}
+
+.market-status {
+    display: flex;
+    gap: 15px;
+}
+
+.market-item {
+    color: #666;
+}
+
+.market-item.active {
+    color: #00ff88;
+}
+
+.header-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.menu-items {
+    display: flex;
+    gap: 15px;
+}
+
+.menu-item {
+    color: #888;
+    cursor: pointer;
+    padding: 4px 8px;
+    border: 1px solid transparent;
+}
+
+.menu-item:hover {
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.user-profile {
+    background-color: #ff9800;
+    color: #000;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* ── Indices Bar ── */
+.indices-bar {
+    background-color: #111;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.index-item {
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+}
+
+.index-label {
+    color: #666;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+
+.index-value {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.index-change {
+    font-size: 11px;
+    margin-top: 2px;
+}
+
+/* ── Colors ── */
+.positive { color: #00ff88; }
+.negative { color: #ff5252; }
+.neutral  { color: #ff9800; }
+
+/* ── Main Grid ── */
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    background-color: #222;
+    flex: 1;
+    min-height: 0;
+    height: auto;
+}
+
+/* ── Panels ── */
+.panel {
+    background-color: #0a0a0a;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel-header {
+    background-color: #1a1a1a;
+    padding: 8px 12px;
+    border-bottom: 1px solid #333;
+    font-weight: bold;
+    color: #ff9800;
+    font-size: 11px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.panel-content {
+    padding: 8px;
+    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+    font-size: 11px;
+}
+
+/* ── Datahouse Watchlist/Macro panels ── */
+.datahouse-watchlist {
+    padding: 0;
+}
+
+.datahouse-macro {
+    padding: 0;
+}
+
+/* ── Watchlist Table ── */
+.watchlist-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.watchlist-table th {
+    text-align: left;
+    color: #666;
+    font-weight: normal;
+    padding: 6px 4px;
+    font-size: 10px;
+    border-bottom: 1px solid #222;
+}
+
+.watchlist-table td {
+    padding: 6px 4px;
+    border-bottom: 1px solid #1a1a1a;
+    font-size: 10px;
+}
+
+.watchlist-table tr:hover {
+    background-color: #1a1a1a;
+    cursor: pointer;
+}
+
+.watchlist-table tr.selected {
+    background-color: #1a2a1a;
+}
+
+.symbol {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.price {
+    color: #fff;
+    font-family: 'Courier New', monospace;
+}
+
+/* ── Tab Content Fill ── */
+.panel > .panel-content:has(.tab-content) {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.tab-content.active {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    gap: 8px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* ── Level II / Task Table ── */
+.level2-table {
+    width: 100%;
+    font-size: 10px;
+}
+
+.level2-table th {
+    text-align: right;
+    color: #666;
+    padding: 4px;
+    font-weight: normal;
+}
+
+.level2-table td {
+    padding: 3px 4px;
+    text-align: right;
+    font-family: 'Courier New', monospace;
+}
+
+.level2-table tr:hover {
+    background-color: #1a1a1a;
+}
+
+/* ── Domain Heatmap ── */
+.sector-heatmap {
+    display: flex;
+    gap: 2px;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.sector-box {
+    flex: 1;
+    min-width: 60px;
+    background-color: #00ff88;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 4px;
+    text-align: center;
+}
+
+.sector-box.critical {
+    background-color: #ff5252;
+    color: #fff;
+}
+
+.sector-box.stale {
+    background-color: #ff9800;
+    color: #000;
+}
+
+.sector-box.ok {
+    background-color: #00ff88;
+    color: #000;
+}
+
+.sector-box.small {
+    font-size: 9px;
+}
+
+/* ── Macro table ── */
+#macroTable {
+    table-layout: fixed;
+}
+#macroTable th:nth-child(1),
+#macroBody td:nth-child(1) { width: 36px; text-align: center; }
+#macroTable th:nth-child(2),
+#macroBody td:nth-child(2) { width: auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#macroTable th:nth-child(3),
+#macroBody td:nth-child(3) { width: 80px; text-align: right; }
+#macroTable th:nth-child(4),
+#macroBody td:nth-child(4) { width: 36px; text-align: right; }
+#macroBody .symbol {
+    font-size: 10px;
+}
+
+#macroBody td {
+    vertical-align: middle;
+    padding: 4px 6px;
+}
+
+/* ── Time & Sales (Log / Terminal) ── */
+.time-sales {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    overflow-y: auto;
+}
+
+.time-sales-row {
+    display: flex;
+    gap: 12px;
+    padding: 4px 8px;
+    border-bottom: 1px solid #222;
+    font-size: 11px;
+}
+.time-sales-row span:first-child {
+    flex-shrink: 0;
+    color: #666;
+    font-family: 'Courier New', monospace;
+}
+.time-sales-row span:last-child {
+    text-align: left;
+    word-break: break-word;
+}
+
+.time-sales-row:hover {
+    background-color: #1a1a1a;
+}
+
+.log-info    { color: #888; }
+.log-warning { color: #ff9800; }
+.log-error   { color: #ff5252; }
+.log-sched   { color: #00ff88; }
+
+/* Log phase highlighting */
+.log-phase {
+    color: #ff9800;
+    font-weight: bold;
+    background-color: #1a1400;
+    border-left: 3px solid #ff9800;
+    padding-left: 6px;
+    margin: 2px 0;
+}
+.log-step { color: #4fc3f7; }
+.log-ok   { color: #00ff88; }
+
+/* ── Health Status Cards ── */
+.health-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 8px;
+    background-color: #1a1a1a;
+    border-radius: 4px;
+    border-left: 3px solid #333;
+    font-size: 10px;
+}
+
+.health-card.ok {
+    border-left-color: #00ff88;
+}
+
+.health-card.stale {
+    border-left-color: #ff9800;
+}
+
+.health-card.critical {
+    border-left-color: #ff5252;
+}
+
+/* ── Portfolio / Metrics ── */
+.portfolio-summary {
+    padding: 5px;
+}
+
+.portfolio-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 6px 8px;
+    background-color: #1a1a1a;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.portfolio-label {
+    color: #888;
+}
+
+.portfolio-value {
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+}
+
+/* ── Buttons ── */
+.tf-btn {
+    background-color: #222;
+    border: 1px solid #333;
+    color: #888;
+    padding: 4px 12px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.tf-btn.active {
+    background-color: #ff9800;
+    color: #000;
+    border-color: #ff9800;
+}
+
+.tf-btn:hover:not(.active) {
+    background-color: #333;
+    color: #fff;
+}
+
+.tf-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ── Modal ── */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-overlay.open {
+    display: flex;
+}
+
+.modal {
+    background-color: #0a0a0a;
+    border: 1px solid #333;
+    width: 600px;
+    max-width: 90%;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ── Domain Heatmap ── */
+.domain-heatmap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 8px;
+}
+
+/* ── Tab Bar ── */
+.tab-bar {
+    display: flex;
+    gap: 1px;
+    background-color: #222;
+    padding: 0 4px;
+    border-bottom: 1px solid #333;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #444 #1a1a1a;
+}
+
+.tab-btn {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-bottom: none;
+    color: #888;
+    padding: 6px 14px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    transition: all 0.15s ease;
+    position: relative;
+}
+
+.tab-btn:hover:not(.active) {
+    background-color: #2a2a2a;
+    color: #ccc;
+    border-color: #444;
+}
+
+.tab-btn.active {
+    background-color: #0a0a0a;
+    color: #ff9800;
+    border-color: #333;
+    border-bottom: 2px solid #ff9800;
+    margin-bottom: -1px;
+    z-index: 1;
+}
+
+.tab-btn:focus-visible {
+    outline: 1px solid #ff9800;
+    outline-offset: -2px;
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+    animation: fadeIn 0.15s ease;
+}
+
+/* .tab-content.active is handled by the higher-specificity rule at line ~240:
+   .panel > .panel-content:has(.tab-content) .tab-content.active { display: flex }
+   That rule ensures the flex column chain works for scrollable tab content. */
+
+/* Tab Panel Sections (inside tab content) */
+.tab-panel {
+    background-color: #0a0a0a;
+    border: 1px solid #222;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.tab-panel-header {
+    background-color: #1a1a1a;
+    padding: 8px 12px;
+    border-bottom: 1px solid #333;
+    font-weight: bold;
+    color: #ff9800;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tab-panel-content {
+    padding: 10px;
+    font-size: 11px;
+}
+
+/* Datahouse Tab Specific */
+.datahouse-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.datahouse-grid > .tab-panel {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1200px) {
+    .datahouse-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Asset DNA Tab */
+.asset-dna-controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-radius: 4px;
+    border: 1px solid #222;
+    flex-shrink: 0;
+}
+
+.asset-dna-select {
+    background-color: #222;
+    border: 1px solid #333;
+    color: #e0e0e0;
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-size: 11px;
+    min-width: 140px;
+}
+
+.asset-dna-select:focus {
+    outline: 1px solid #ff9800;
+    border-color: #ff9800;
+}
+
+/* Asset DNA Reports List */
+.asset-dna-reports {
+    flex: 1;
+    border: 1px solid #222;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 120px;
+}
+.asset-dna-reports-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 10px;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
+    font-weight: bold;
+    color: #ff9800;
+    font-size: 10px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+.asset-dna-reports-body {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #0a0a0a;
+    min-height: 0;
+}
+.asset-dna-reports-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+}
+.asset-dna-reports-table th {
+    color: #666;
+    text-align: left;
+    padding: 4px 10px;
+    border-bottom: 1px solid #222;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 9px;
+    position: sticky;
+    top: 0;
+    background-color: #0a0a0a;
+}
+.asset-dna-reports-table td {
+    padding: 4px 10px;
+    border-bottom: 1px solid #1a1a1a;
+    color: #ccc;
+}
+.asset-dna-reports-table tr:hover td {
+    background-color: #1a1a1a;
+}
+.dna-type-pdf {
+    color: #ff9800;
+    font-weight: bold;
+}
+.dna-type-json {
+    color: #4fc3f7;
+    font-weight: bold;
+}
+.dna-type-txt {
+    color: #81c784;
+    font-weight: bold;
+}
+
+/* Macro Overlay Status Card */
+.dna-overlay-status {
+    border: 1px solid #222;
+    border-radius: 4px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.dna-overlay-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #222;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #81c784;
+}
+.dna-overlay-body {
+    padding: 8px;
+    background-color: #0d0d0d;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.dna-overlay-summary {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 11px;
+}
+.dna-overlay-regime {
+    color: #ff9800;
+    font-weight: bold;
+}
+.dna-overlay-mr {
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.dna-overlay-mr.mr-on {
+    color: #00ff88;
+    background-color: rgba(0, 255, 136, 0.1);
+}
+.dna-overlay-mr.mr-off {
+    color: #ff5252;
+    background-color: rgba(255, 82, 82, 0.1);
+}
+.dna-overlay-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+}
+.dna-overlay-table th {
+    color: #666;
+    font-weight: normal;
+    text-align: left;
+    padding: 4px 6px;
+    border-bottom: 1px solid #222;
+    text-transform: uppercase;
+    font-size: 9px;
+}
+.dna-overlay-table td {
+    padding: 4px 6px;
+    border-bottom: 1px solid #1a1a1a;
+    color: #ccc;
+}
+.dna-overlay-table tr:hover td {
+    background-color: #1a1a1a;
+}
+.dna-z-badge {
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.dna-z-badge.z-normal {
+    color: #00ff88;
+    background-color: rgba(0, 255, 136, 0.1);
+}
+.dna-z-badge.z-elevated {
+    color: #ffeb3b;
+    background-color: rgba(255, 235, 59, 0.1);
+}
+.dna-z-badge.z-high {
+    color: #ff9800;
+    background-color: rgba(255, 152, 0, 0.1);
+}
+.dna-z-badge.z-extreme {
+    color: #ff5252;
+    background-color: rgba(255, 82, 82, 0.1);
+}
+
+/* Asset DNA Advanced Options */
+.asset-dna-advanced {
+    border: 1px solid #222;
+    border-radius: 4px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.asset-dna-advanced-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 10px;
+    background-color: #1a1a1a;
+    color: #666;
+    font-size: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+}
+
+.asset-dna-advanced-toggle:hover {
+    background-color: #222;
+    color: #999;
+}
+
+.asset-dna-advanced-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    padding: 8px 10px;
+    background-color: #111;
+}
+
+.dna-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #888;
+    font-size: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.dna-toggle:hover {
+    color: #bbb;
+}
+
+.dna-toggle input[type="checkbox"] {
+    accent-color: #ff9800;
+    cursor: pointer;
+}
+
+/* Asset DNA Running Animation */
+@keyframes dnaPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+.dna-running { animation: dnaPulse 1.5s ease-in-out infinite; }
+
+.dna-progress-bar {
+    width: 100%;
+    height: 3px;
+    background-color: #222;
+    border-radius: 2px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.dna-progress-bar-fill {
+    height: 100%;
+    background-color: #ff9800;
+    border-radius: 2px;
+    transition: width 0.5s ease;
+}
+
+/* Regime Tab */
+.regime-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+}
+
+.regime-card {
+    background-color: #1a1a1a;
+    border: 1px solid #222;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.regime-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #222;
+}
+
+.regime-card-title {
+    color: #ff9800;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.regime-card-badge {
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.regime-badge-trend_forte { background: #27AE60; color: #000; }
+.regime-badge-trend_fraco { background: #3498DB; color: #000; }
+.regime-badge-breakout { background: #F39C12; color: #000; }
+.regime-badge-range { background: #9B59B6; color: #fff; }
+.regime-badge-chop { background: #E74C3C; color: #fff; }
+
+.regime-metric {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    margin: 4px 0;
+}
+
+.regime-metric-label { color: #888; }
+.regime-metric-value { color: #fff; font-family: 'Courier New', monospace; }
+
+/* Risk Sentiment Tab */
+.risk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+}
+
+.risk-card {
+    background-color: #1a1a1a;
+    border: 1px solid #222;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.risk-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #222;
+}
+
+.risk-card-title {
+    color: #ff9800;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* ── Agent Flowchart ── */
+.flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 10px 0;
+}
+
+.flow-row {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flow-line-v {
+    width: 1px;
+    height: 18px;
+    background: #333;
+    margin: 0 auto;
+}
+
+.flow-connector {
+    position: relative;
+    width: 100%;
+    height: 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.flow-connector::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 25%;
+    right: 25%;
+    height: 1px;
+    background: #333;
+}
+
+.flow-connector::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background: #333;
+}
+
+.flow-connector-h {
+    position: relative;
+    width: 100%;
+    height: 18px;
+}
+
+.flow-connector-h::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    height: 1px;
+    background: #333;
+}
+
+/* ── Agent Card (compact) ── */
+.agent-card {
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    padding: 10px 14px;
+    min-width: 150px;
+    max-width: 180px;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+}
+
+.agent-card:hover {
+    border-color: #ff9800;
+    background: #1e1e1e;
+}
+
+.agent-card-row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.agent-card-name {
+    color: #ff9800;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.agent-status-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.agent-status-dot.ONLINE    { background: #00ff88; box-shadow: 0 0 4px #00ff88; }
+.agent-status-dot.STANDBY   { background: #ff9800; }
+.agent-status-dot.PROCESSING { background: #2196f3; box-shadow: 0 0 4px #2196f3; }
+.agent-status-dot.OFFLINE   { background: #555; }
+.agent-status-dot.ERROR     { background: #ff5252; box-shadow: 0 0 4px #ff5252; }
+
+.agent-card-role {
+    color: #777;
+    font-size: 9px;
+    margin-bottom: 6px;
+}
+
+.agent-card-metrics {
+    display: flex;
+    gap: 10px;
+    color: #555;
+    font-size: 8px;
+}
+
+.agent-card-metrics span {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.agent-card-metrics .metric-icon {
+    font-size: 8px;
+}
+
+/* Agent group labels */
+.agent-group-label {
+    color: #555;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 6px 0 4px;
+    width: 100%;
+}
+
+.risk-score-large {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+}
+
+.risk-score-large.risk-on { color: #00ff88; }
+.risk-score-large.risk-off { color: #ff5252; }
+.risk-score-large.neutral { color: #ff9800; }
+
+/* Global Macro Economic State (lower area of Risk Sentiment tab) */
+.macro-state-section { margin-top: 18px; flex-shrink: 0; }
+.macro-state-header {
+    color: #ff9800;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    padding-left: 2px;
+    border-left: 3px solid #ff9800;
+    padding-left: 8px;
+}
+.macro-badge {
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.macro-badge.risk-on { background: #1b3a2a; color: #00ff88; border: 1px solid #00ff88; }
+.macro-badge.risk-off { background: #3a1b1b; color: #ff5252; border: 1px solid #ff5252; }
+.macro-badge.neutral { background: #3a2e1a; color: #ff9800; border: 1px solid #ff9800; }
+
+.macro-refresh-status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #d8a94a;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    padding-top: 6px;
+    opacity: 0.9;
+}
+
+.macro-refresh-dot {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #d8a94a;
+    box-shadow: 0 0 8px rgba(216, 169, 74, 0.8);
+    animation: macro-refresh-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes macro-refresh-pulse {
+    0% { opacity: 0.4; transform: scale(0.9); }
+    50% { opacity: 1; transform: scale(1.1); }
+    100% { opacity: 0.4; transform: scale(0.9); }
+}
+
+.risk-factor-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid #1a1a1a;
+    font-size: 11px;
+}
+
+.risk-factor-label { color: #888; }
+.risk-factor-value { color: #fff; font-family: 'Courier New', monospace; }
+
+.risk-factor-value.positive { color: #00ff88; }
+.risk-factor-value.negative { color: #ff5252; }
+
+/* NLP Sentiment Tab (Placeholder) */
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 300px;
+    color: #666;
+    text-align: center;
+}
+
+.coming-soon-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+}
+
+.coming-soon-title {
+    font-size: 18px;
+    color: #ff9800;
+    margin-bottom: 8px;
+}
+
+.coming-soon-text {
+    font-size: 12px;
+    max-width: 400px;
+    line-height: 1.6;
+}
+
+/* Data Miner Tab */
+.dataminer-controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-radius: 4px;
+    border: 1px solid #222;
+}
+
+.dataminer-file-input {
+    flex: 1;
+    min-width: 200px;
+}
+
+.dataminer-file-input input {
+    display: none;
+}
+
+.dataminer-file-label {
+    display: inline-block;
+    background-color: #222;
+    border: 1px solid #333;
+    color: #e0e0e0;
+    padding: 8px 16px;
+    border-radius: 3px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.dataminer-file-label:hover {
+    background-color: #333;
+    border-color: #ff9800;
+}
+
+.dataminer-run-btn {
+    background-color: #1a3a2a;
+    border: 1px solid #00ff88;
+    color: #00ff88;
+    padding: 8px 20px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.dataminer-run-btn:hover:not(:disabled) {
+    background-color: #00ff88;
+    color: #000;
+}
+
+.dataminer-run-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.dataminer-results {
+    display: none;
+}
+
+.dataminer-results.visible {
+    display: block;
+}
+
+.dataminer-section {
+    background-color: #1a1a1a;
+    border: 1px solid #222;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.dataminer-section-header {
+    background-color: #111;
+    padding: 10px 12px;
+    border-bottom: 1px solid #222;
+    color: #ff9800;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.dataminer-section-content {
+    padding: 12px;
+}
+
+.dataminer-table {
+    width: 100%;
+    font-size: 10px;
+    border-collapse: collapse;
+}
+
+.dataminer-table th {
+    text-align: left;
+    color: #666;
+    padding: 6px 8px;
+    border-bottom: 1px solid #222;
+    font-weight: normal;
+}
+
+.dataminer-table td {
+    padding: 5px 8px;
+    border-bottom: 1px solid #1a1a1a;
+    color: #ccc;
+}
+
+.dataminer-table tr:hover {
+    background-color: #1a1a1a;
+}
+
+/* Toast Notifications ── */
+.toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.toast {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-left: 3px solid #00ff88;
+    padding: 10px 16px;
+    font-size: 11px;
+    min-width: 250px;
+    animation: fadeIn 0.3s;
+}
+
+.toast.error {
+    border-left-color: #ff5252;
+}
+
+.toast.info {
+    border-left-color: #ff9800;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ── DNA Report Viewer ── */
+.dna-viewer-json {
+    padding: 16px;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: #ccc;
+    background: #0a0a0a;
+    line-height: 1.5;
+}
+.dna-viewer-json .json-key { color: #4fc3f7; }
+.dna-viewer-json .json-str { color: #00ff88; }
+.dna-viewer-json .json-num { color: #ff9800; }
+.dna-viewer-json .json-bool { color: #ce93d8; }
+.dna-viewer-json .json-null { color: #666; }
+.dna-delete-btn {
+    cursor: pointer;
+    color: #666;
+    font-size: 13px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    transition: color 0.2s, background-color 0.2s;
+}
+.dna-delete-btn:hover {
+    color: #ff5252;
+    background-color: rgba(255,82,82,0.15);
+}
+.dna-viewer-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: #666;
+    font-size: 12px;
+}
+
+/* ── DNA Log (inline in tab) ── */
+.dna-inline-log {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #222;
+    border-radius: 4px;
+    overflow: hidden;
+    min-height: 0;
+}
+.dna-inline-log-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 10px;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
+    font-weight: bold;
+    color: #ff9800;
+    font-size: 10px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+.dna-inline-log-body {
+    flex: 1;
+    overflow-y: scroll;
+    padding: 4px;
+    background-color: #0a0a0a;
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    min-height: 0;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #444;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════════
+   EA CALIBRATOR TAB
+   ═══════════════════════════════════════════════════════════════════════════════ */
+
+.calibration-controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-radius: 4px;
+    border: 1px solid #222;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.calibration-results {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #0a0a0a;
+    border: 1px solid #222;
+    border-radius: 4px;
+    min-height: 120px;
+    font-size: 12px;
+}
+
+.cal-section {
+    border-bottom: 1px solid #222;
+}
+
+.cal-section-header {
+    padding: 6px 12px;
+    background-color: #1a1a1a;
+    font-weight: bold;
+    color: #ff9800;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.cal-section-body {
+    padding: 10px 12px;
+    font-size: 12px;
+}
+
+.cal-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+}
+
+.cal-table th {
+    color: #666;
+    text-align: left;
+    padding: 4px 8px;
+    border-bottom: 1px solid #222;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #0a0a0a;
+}
+
+.cal-table td {
+    padding: 4px 8px;
+    border-bottom: 1px solid #1a1a1a;
+    color: #ccc;
+    vertical-align: top;
+}
+
+.cal-table tr:hover td {
+    background-color: #1a1a1a;
+}
+
+/* ─── NLP Sentiment tab ─── */
+.nlp-dir-bullish { color: #4caf50; font-weight: bold; }
+.nlp-dir-bearish { color: #f44336; font-weight: bold; }
+.nlp-dir-neutral { color: #888; }
+
+.nlp-news-item {
+    padding: 8px 12px;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.nlp-news-title {
+    font-size: 12px;
+    color: #ff9800;
+    margin-bottom: 2px;
+}
+
+.nlp-news-meta {
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.nlp-news-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.nlp-impact-chip {
+    font-size: 10px;
+    padding: 1px 6px;
+    border-radius: 3px;
+    border: 1px solid #333;
+    background-color: #1a1a1a;
+    color: #ccc;
+}
+
+.nlp-impact-chip.nlp-dir-bullish { color: #4caf50; border-color: #2e5d30; }
+.nlp-impact-chip.nlp-dir-bearish { color: #f44336; border-color: #5d2e2e; }
+.nlp-impact-chip.nlp-dir-neutral { color: #888; }
+
+/* ── Brand logo (header) ── */
+.brand-logo {
+    height: 26px;
+    width: auto;
+    display: block;
+    margin: 3px 0 4px;
+}
+
+/* ── Brand logo (top-right indices bar) ── */
+.brand-logo-top {
+    height: 40px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    align-self: center;
+}
+
+/* ── Check FAQs (mesas proprietárias) ── */
+.cf-del {
+    background: transparent;
+    border: 1px solid #552;
+    color: #ff6b6b;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 1px 7px;
+    line-height: 1.4;
+}
+.cf-del:hover { background: rgba(255, 80, 80, 0.15); }
+.watchlist-table tr.changed {
+    background: rgba(220, 40, 40, 0.20) !important;
+}
+.cf-diff {
+    display: flex;
+    gap: 12px;
+    padding: 10px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.cf-diff > div {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    flex: 1;
+}
+.cf-diff-h {
+    color: #888;
+    font-size: 11px;
+    margin-bottom: 4px;
+    letter-spacing: 1px;
+}
+.cf-pre {
+    flex: 1;
+    margin: 0;
+    padding: 8px;
+    background: #0c0e12;
+    color: #cfd6e0;
+    border: 1px solid #1e2530;
+    border-radius: 4px;
+    overflow: auto;
+    white-space: pre-wrap;
+    font-size: 11px;
+    line-height: 1.4;
+}

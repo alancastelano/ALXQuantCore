@@ -1,0 +1,68 @@
+# ALXQuant - Core Scientific Stack
+numpy>=2.0
+pandas>=2.2
+scipy>=1.14
+
+# Machine Learning
+scikit-learn>=1.6
+xgboost>=3.0
+lightgbm>=4.6
+
+# Explainable AI
+shap>=0.48
+
+# Visualization
+matplotlib>=3.10
+seaborn>=0.13
+plotly>=6.0
+
+# Statistics & Quant
+statsmodels>=0.14
+arch>=7.2
+
+# Jupyter Research
+jupyter
+notebook
+ipykernel
+
+# Data
+pyarrow
+openpyxl
+
+# Database (colunar, process-safe)
+duckdb>=1.0
+
+# Progress / Utilities
+tqdm
+tabulate
+
+# Resilience
+tenacity>=8.0
+
+# Testing
+pytest>=8.0
+
+# JIT Acceleration (Hurst, entropy, MI, TE)
+numba>=0.60
+
+# Hidden Markov Model (regime detection)
+hmmlearn>=0.3
+
+# Wavelet Denoising
+PyWavelets>=1.6
+
+# PDF Report Generation
+reportlab>=4.0
+
+# .env loading
+python-dotenv>=1.0
+
+# HTTP / API
+requests
+fastapi>=0.110
+uvicorn>=0.30
+
+# Optional Financial Packages
+yfinance
+fredapi
+Metatrader5

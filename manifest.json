@@ -1,0 +1,304 @@
+{
+  "platform": "10.3.3",
+  "generated_at": "2026-08-24T14:30:00Z",
+  "contracts": {
+    "policy_bin": {
+      "format_version": 10000,
+      "producer": "python:policy_compiler",
+      "consumer": "mql5:Policy",
+      "description": "Binary policy contract v10.x — 88 bytes little-endian"
+    }
+  },
+  "components": {
+    "mql5:Execution": {
+      "version": "10.0.1",
+      "requires": {
+        "mql5:MacroRegimeEngine": ">=10.0.0,<11.0.0",
+        "mql5:RiskManager": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Modules/Execution.mqh"
+    },
+    "mql5:MacroRegimeEngine": {
+      "version": "10.1.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Modules/MacroRegimeEngine.mqh"
+    },
+    "mql5:DataMiner": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:MacroRegimeEngine": ">=10.0.0,<11.0.0",
+        "mql5:RiskSentiment": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Modules/DataMiner.mqh"
+    },
+    "mql5:RiskManager": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Modules/RiskManager.mqh"
+    },
+    "mql5:RiskSentiment": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Modules/RiskSentiment.mqh"
+    },
+    "mql5:HumanBehavior": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Modules/HumanBehavior.mqh"
+    },
+    "mql5:NewsFilter": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Modules/NewsFilter.mqh"
+    },
+    "mql5:TimeFilter": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Modules/Timefilter.mqh"
+    },
+    "mql5:AccountProtector": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Modules/AccountProtector.mqh"
+    },
+    "mql5:StatsTracker": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Modules/StatsTracker.mqh"
+    },
+    "mql5:SessionProfile": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Modules/SessionProfile.mqh"
+    },
+    "mql5:PortfolioRisk": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:RiskManager": ">=10.0.0,<11.0.0",
+        "mql5:RiskSentiment": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Modules/PortfolioRisk.mqh"
+    },
+    "mql5:Terminal": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:AccountProtector": ">=10.0.0,<11.0.0",
+        "mql5:NewsFilter": ">=10.0.0,<11.0.0",
+        "mql5:TimeFilter": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Terminal.mqh"
+    },
+    "mql5:Policy": {
+      "version": "10.2.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Policy.mqh"
+    },
+    "mql5:ALXQuantCore": {
+      "version": "10.2.0",
+      "requires": {
+        "mql5:Terminal": ">=10.0.0,<11.0.0",
+        "mql5:RiskManager": ">=10.0.0,<11.0.0",
+        "mql5:Execution": ">=10.0.0,<11.0.0",
+        "mql5:DataMiner": ">=10.0.0,<11.0.0",
+        "mql5:StatsTracker": ">=10.0.0,<11.0.0",
+        "mql5:AccountProtector": ">=10.0.0,<11.0.0",
+        "mql5:TimeFilter": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/ALXQuantCore.mqh"
+    },
+    "mql5:Design": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Core/Design.mqh"
+    },
+    "mql5:Panel": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Core/Panel.mqh"
+    },
+    "mql5:Telegram": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Core/Telegram.mqh"
+    },
+    "mql5:StopLoss": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Core/StopLoss.mqh"
+    },
+    "mql5:TrailingStop": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Core/TrailingStop.mqh"
+    },
+    "mql5:Enums": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Core/enums.mqh"
+    },
+    "mql5:TrendFollowing": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:MacroRegimeEngine": ">=10.0.0,<11.0.0",
+        "mql5:RiskManager": ">=10.0.0,<11.0.0",
+        "mql5:Execution": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Strategy/TrendFollowing.mqh"
+    },
+    "mql5:MeanReversal": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:MacroRegimeEngine": ">=10.0.0,<11.0.0",
+        "mql5:RiskManager": ">=10.0.0,<11.0.0",
+        "mql5:Execution": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Strategy/MeanReversal.mqh"
+    },
+    "mql5:MeanReversalAdvanced": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:MacroRegimeEngine": ">=10.0.0,<11.0.0",
+        "mql5:RiskManager": ">=10.0.0,<11.0.0",
+        "mql5:Execution": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Strategy/MeanReversalAdvanced.mqh"
+    },
+    "mql5:MeanReversalStrategy": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:MacroRegimeEngine": ">=10.0.0,<11.0.0",
+        "mql5:RiskManager": ">=10.0.0,<11.0.0",
+        "mql5:Execution": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Strategy/MeanReversalStrategy.mqh"
+    },
+    "mql5:RangeBreakout": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:MacroRegimeEngine": ">=10.0.0,<11.0.0",
+        "mql5:RiskManager": ">=10.0.0,<11.0.0",
+        "mql5:Execution": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Strategy/RangeBreakout.mqh"
+    },
+    "mql5:SessionBreakout": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:MacroRegimeEngine": ">=10.0.0,<11.0.0",
+        "mql5:RiskManager": ">=10.0.0,<11.0.0",
+        "mql5:Execution": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Strategy/SessionBreakout.mqh"
+    },
+    "mql5:TrendAdaptative": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:MacroRegimeEngine": ">=10.0.0,<11.0.0",
+        "mql5:RiskManager": ">=10.0.0,<11.0.0",
+        "mql5:Execution": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Strategy/TrendAdaptative.mqh"
+    },
+    "mql5:CustomIndicators": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Strategy/CustomIndicators.mqh"
+    },
+    "mql5:ALXQuantStrategy": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:MacroRegimeEngine": ">=10.0.0,<11.0.0",
+        "mql5:RiskManager": ">=10.0.0,<11.0.0",
+        "mql5:Execution": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Include/ALXQuantCore/Strategy/ALXQuantStrategy.mqh"
+    },
+    "python:asset_dna": {
+      "version": "10.3.3",
+      "requires": {
+        "python:risk_sentiment": ">=10.0.0,<11.0.0"
+      },
+      "path": "Modulos/asset_dna"
+    },
+    "python:nlp_sentiment": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "Modulos/nlp_sentiment"
+    },
+    "python:datahouse": {
+      "version": "10.3.3",
+      "requires": {},
+      "path": "Modulos/datahouse"
+    },
+    "python:risk_sentiment": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "Modulos/risk_sentiment"
+    },
+    "python:macro_state": {
+      "version": "10.0.0",
+      "requires": {
+        "python:datahouse": ">=10.0.0,<11.0.0"
+      },
+      "path": "Modulos/macro_state"
+    },
+    "python:alpha_miner": {
+      "version": "10.0.0",
+      "requires": {},
+      "path": "Modulos/alpha_miner"
+    },
+    "python:policy_compiler": {
+      "version": "10.1.0",
+      "requires": {
+        "python:asset_dna": ">=10.0.0,<11.0.0",
+        "python:risk_sentiment": ">=10.0.0,<11.0.0"
+      },
+      "path": "Modulos/v10"
+    },
+    "mql5:IS_Green_Lab": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:Execution": ">=10.0.0,<11.0.0",
+        "mql5:MacroRegimeEngine": ">=10.0.0,<11.0.0",
+        "mql5:RiskSentiment": ">=10.0.0,<11.0.0",
+        "mql5:HumanBehavior": ">=10.0.0,<11.0.0",
+        "mql5:DataMiner": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Experts/EAQuant/Code MQL4/Lab/IS Green Lab.mq5"
+    },
+    "mql5:EA_QuantFX": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:Terminal": ">=10.0.0,<11.0.0",
+        "mql5:AccountProtector": ">=10.0.0,<11.0.0",
+        "mql5:NewsFilter": ">=10.0.0,<11.0.0",
+        "mql5:TimeFilter": ">=10.0.0,<11.0.0",
+        "mql5:Telegram": ">=10.0.0,<11.0.0",
+        "mql5:RiskManager": ">=10.0.0,<11.0.0",
+        "mql5:Execution": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Experts/EAQuant/EA QUantFX.mq5"
+    },
+    "mql5:EA_Quant_Commodities": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:Terminal": ">=10.0.0,<11.0.0",
+        "mql5:AccountProtector": ">=10.0.0,<11.0.0",
+        "mql5:NewsFilter": ">=10.0.0,<11.0.0",
+        "mql5:TimeFilter": ">=10.0.0,<11.0.0",
+        "mql5:RiskManager": ">=10.0.0,<11.0.0",
+        "mql5:Execution": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Experts/EAQuant/EA Quant Commodities.mq5"
+    },
+    "mql5:Quant_NewsFilter": {
+      "version": "10.0.0",
+      "requires": {
+        "mql5:Terminal": ">=10.0.0,<11.0.0",
+        "mql5:NewsFilter": ">=10.0.0,<11.0.0",
+        "mql5:Telegram": ">=10.0.0,<11.0.0"
+      },
+      "path": "MQL5/MQL5/Experts/EAQuant/Quant_NewsFilter.mq5"
+    }
+  }
+}
