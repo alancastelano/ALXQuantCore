@@ -60,7 +60,6 @@ ECONOMY_INDICATORS = {
             dict(name="GDP_YOY", source="FRED", series_id="GDPC1", freq="Q", unit="%", direction=1, transform="yoy"),
             dict(name="INDPRO", source="FRED", series_id="INDPRO", freq="M", unit="%", direction=1, transform="yoy"),
             dict(name="RETAIL", source="FRED", series_id="RSAFS", freq="M", unit="%", direction=1, transform="yoy"),
-            dict(name="ISM_MFG", source="FRED", series_id="NAPM", freq="M", unit="idx", direction=1, transform="level"),
         ],
         "labor": [
             dict(name="UNRATE", source="FRED", series_id="UNRATE", freq="M", unit="%", direction=-1, transform="level"),
@@ -106,7 +105,7 @@ ECONOMY_INDICATORS = {
     },
     "JAPAN": {
         "growth": [
-            dict(name="GDP Deflator", source="FRED", series_id="JPNGDPDEFTOTQGYSAD", freq="Q", unit="%", direction=-1, transform="yoy", target=0.02),
+            dict(name="GDP Deflator", source="FRED", series_id="NGDPDSAIXJPQ", freq="Q", unit="%", direction=-1, transform="yoy", target=0.02),
         ],
         "labor": [
             dict(name="Employment", source="FRED", series_id="JPNCETRILSMEI", freq="M", unit="index", direction=1, transform="diff", target=0),
@@ -135,7 +134,7 @@ ECONOMY_INDICATORS = {
             dict(name="IBC_BR", source="BCB", series_id="IBC_BR", fred_code="28771", freq="M", unit="idx", direction=1, transform="yoy"),
         ],
         "labor": [
-            dict(name="UNEMPLOYMENT", source="BCB", series_id="UNEMPLOYMENT", fred_code="24374", freq="M", unit="%", direction=-1, transform="level"),
+            dict(name="UNEMPLOYMENT", source="BCB", series_id="UNEMPLOYMENT", fred_code="24369", freq="M", unit="%", direction=-1, transform="level"),
         ],
         "inflation": [
             dict(name="IPCA", source="BCB", series_id="IPCA", fred_code="433", freq="M", unit="%", direction=-1, transform="level", target=0.035),
@@ -146,7 +145,7 @@ ECONOMY_INDICATORS = {
         ],
         "recession": [
             dict(name="IBC_BR", source="BCB", series_id="IBC_BR", fred_code="28771", freq="M", unit="idx", direction=1, transform="yoy"),
-            dict(name="UNEMPLOYMENT", source="BCB", series_id="UNEMPLOYMENT", fred_code="24374", freq="M", unit="%", direction=-1, transform="level"),
+            dict(name="UNEMPLOYMENT", source="BCB", series_id="UNEMPLOYMENT", fred_code="24369", freq="M", unit="%", direction=-1, transform="level"),
         ],
     },
 }

@@ -165,7 +165,10 @@ def refresh_macro_assets(assets):
             if collector == "BCB":
                 import urllib.request, json as _json
                 bcb_id = a.get("fred_code") or code
-                start = (datetime.now() - timedelta(days=60)).strftime("%d/%m/%Y")
+                # Seed amplo p/ series mensais com lag (ex.: PNAD ~2.5 meses):
+                # janela de 60d em DB fresco nao alcanca a ultima obs e o BCB devolve 404.
+                seed_days = 400 if not last_epoch else 60
+                start = (datetime.now() - timedelta(days=seed_days)).strftime("%d/%m/%Y")
                 end = datetime.now().strftime("%d/%m/%Y")
                 if last_epoch:
                     start = max(datetime.now() - timedelta(days=60),
@@ -208,7 +211,8 @@ def refresh_macro_assets(assets):
                 vals_list = [float(v) for v in s.values]
                 staged.append((symbol, "Yahoo", date_col, vals_list))
             else:
-                start = (datetime.now() - timedelta(days=60)).strftime("%Y-%m-%d")
+                seed_days = 400 if not last_epoch else 60
+                start = (datetime.now() - timedelta(days=seed_days)).strftime("%Y-%m-%d")
                 if last_epoch:
                     start = max(datetime.now() - timedelta(days=60),
                                 datetime.fromtimestamp(last_epoch) - timedelta(days=2)).strftime("%Y-%m-%d")
@@ -221,7 +225,7 @@ def refresh_macro_assets(assets):
                 vals_list = [float(v) for v in s.values]
                 staged.append((symbol, "FRED", date_col, vals_list))
         except Exception as e:
-            print(f"[MACRO] ERRO {symbol}: {e}")
+            print(f"[MACRO] ERRO {symbol} ({collector} {code}): {e}")
 
     # --- Fase 2: unica conexao write para todos os upserts ---
     if staged:
