@@ -134,6 +134,9 @@ _srvout.txt
 *.zip
 Backup - ALXQuant - 15-08-2026.zip
 
+# --- Local repo backups (bare clones, pre-delete safety copies) ---
+_repo_backups/
+
 # --- Agents ---
 agents/
 
