@@ -50,7 +50,6 @@ venv/
 
 # --- Config files with secrets ---
 config.json
-config.py
 
 # --- IDE/Agent config ---
 .opencode/
