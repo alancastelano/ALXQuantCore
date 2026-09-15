@@ -81,9 +81,9 @@ data/cc-state.json
 data/cc-keys.json
 
 # --- Old/unused modules ---
-Modulos/_old_not_used/
-Modulos/asset_dna/__old/
-Modulos/agent_tasks.json
+QuantCore/Modulos/_old_not_used/
+QuantCore/Modulos/asset_dna/__old/
+QuantCore/Modulos/agent_tasks.json
 
 # --- Demo/prototype ---
 MT5_Demo_UI_Agent_v0_1/
@@ -93,14 +93,11 @@ build/
 dist/
 node_modules/
 
-# --- ALXQuantCommandCenter ---
-ALXQuantCommandCenter/node_modules/
-ALXQuantCommandCenter/dist/
-ALXQuantCommandCenter/.env
-
-# --- Account Monitor ---
-Modulos/account_monitor/.env
-Modulos/account_monitor/ALXAccountMonitor.spec
+# --- CommandCenter ---
+CommandCenter/node_modules/
+CommandCenter/dist/
+CommandCenter/.env
+CommandCenter/data/
 
 # --- MQL5 sub-module artifacts ---
 MQL5/MQL5/.git/
@@ -115,8 +112,6 @@ reports/
 
 # --- Cache ---
 data/cache/
-app/asset_dna/_cache/
-app/.cache/
 **/.cache/
 
 # --- Binary test cache ---
@@ -127,7 +122,7 @@ app/.cache/
 
 # --- Logs ---
 *.log
-_srvr.txt
+_srverr.txt
 _srvout.txt
 
 # --- Backup archives ---
@@ -137,8 +132,8 @@ Backup - ALXQuant - 15-08-2026.zip
 # --- Local repo backups (bare clones, pre-delete safety copies) ---
 _repo_backups/
 
-# --- Agents ---
-agents/
+# --- Agents runtime data (code in QuantCore/Modulos/agents/ is tracked) ---
+QuantCore/Modulos/agents/data/
 
 # --- MQL5 Profiles specific files ---
 MQL5/MQL5/experts.dat

@@ -1,0 +1,7172 @@
+﻿[
+    {
+        "file":  "Arnold.mq4",
+        "class":  "A",
+        "strategy":  "MeanReversal",
+        "score":  62,
+        "indicators":  "MACD, RSI, Stochastic, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Forex WINNER EA (FULL2019).mq4",
+        "class":  "A",
+        "strategy":  "GridMartingale",
+        "score":  65,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan V 1.6.mq4",
+        "class":  "A",
+        "strategy":  "MeanReversal",
+        "score":  65,
+        "indicators":  "MA, RSI, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan-Trio V1.49.mq4",
+        "class":  "A",
+        "strategy":  "GridMartingale",
+        "score":  64,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_1.5_ZeroProfit.mq4",
+        "class":  "A",
+        "strategy":  "GridMartingale",
+        "score":  62,
+        "indicators":  "MACD",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_1.6_Dynamic_MM.mq4",
+        "class":  "A",
+        "strategy":  "MeanReversal",
+        "score":  65,
+        "indicators":  "MA, RSI, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_Nikolaus_mod.mq4",
+        "class":  "A",
+        "strategy":  "MeanReversal",
+        "score":  62,
+        "indicators":  "RSI, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_RSI_MACD.mq4",
+        "class":  "A",
+        "strategy":  "Trend",
+        "score":  65,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MACD Cross Zero EA v1.02.mq4",
+        "class":  "A",
+        "strategy":  "Trend",
+        "score":  64,
+        "indicators":  "MA, MACD",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Perfect Crypto Scalper.mq4",
+        "class":  "A",
+        "strategy":  "Trend",
+        "score":  62,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "PINBAR.mq4",
+        "class":  "A",
+        "strategy":  "MultiStrategy",
+        "score":  65,
+        "indicators":  "MA, MACD, RSI, CCI, Fractals",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Robot Forex 2051MAC (RUS).mq4",
+        "class":  "A",
+        "strategy":  "GridMartingale",
+        "score":  62,
+        "indicators":  "MACD",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Robot_Forex_2014_Profesional__Live.mq4",
+        "class":  "A",
+        "strategy":  "Scalping",
+        "score":  62,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RSI\u0026CCI DIVERGENCE V1.mq4",
+        "class":  "A",
+        "strategy":  "MultiStrategy",
+        "score":  70,
+        "indicators":  "MA, MACD, RSI, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Sidus-EA-V3.20.mq4",
+        "class":  "A",
+        "strategy":  "GridMartingale",
+        "score":  63,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC USD JPY cci test.mq4",
+        "class":  "A",
+        "strategy":  "MultiStrategy",
+        "score":  62,
+        "indicators":  "MA, MACD, RSI, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ultraea.mq4",
+        "class":  "A",
+        "strategy":  "Scalping",
+        "score":  63,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "winscalper 2020.mq4",
+        "class":  "A",
+        "strategy":  "Scalping",
+        "score":  63,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "XMT Scalper v3.mq4",
+        "class":  "A",
+        "strategy":  "MeanReversal",
+        "score":  63,
+        "indicators":  "MA, RSI, Bollinger",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "AF-Global Expert Full.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  58,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "alex_v1_1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ASSAR V10 Final.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Beast_EA_V4.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  56,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Beast_EA_V5.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  56,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "beovb_buovb_bar.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  49,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Black.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Blessing 3 v3.9.6.09.mq4",
+        "class":  "B",
+        "strategy":  "MultiStrategy",
+        "score":  51,
+        "indicators":  "MA, MACD, RSI, Stochastic, CCI, Bollinger, Donchian",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Breakeven.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  48,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "cm-Trade-System-201119.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  50,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CRIPTOBOT EA - New Version 8.5.7.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  54,
+        "indicators":  "MA, MACD, RSI, Fractals",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Crypto Amazing Analysis 2.6.0.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  57,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Dope.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Dope_mod.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  60,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Dope_mod_2.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  60,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Doske_Scalping_EA_ver1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  59,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Double(Ilan1_5\u0026Ilan1_6).mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  54,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Dragon Pips v2.02 Rev.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  54,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "e-Regr (2).mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "e-Regr.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA - Budak Ubat v1.51.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  61,
+        "indicators":  "Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA Masyuk V3..mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  54,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA Phoenix 2021.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA Phoenix 2021_edited.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  52,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA Predator Pips.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA Profit V10.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  61,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA Pyramid 7.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  52,
+        "indicators":  "RSI, Bollinger",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA RoboFibo v.11.2.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  61,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA Sarapan-Pagi_2.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  50,
+        "indicators":  "MA, RSI, Stochastic",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA SCALPERAUTOPILOT.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  55,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA Scalping Asia.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA Smart Neural V1.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA SPARTAN BOLT_.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  58,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA-2MACrossover_v1-0.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  52,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ea-Tesshinso.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EasyRobot.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  55,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "engulfing EA.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  49,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "FEDTM Billioner.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  48,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "FiboPivotandRSI.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "RSI, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird MC v058.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird MC v0581.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird MC v0582.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird MC v0583.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v0.55.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v0.57.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v0.63.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v0.64.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v0.65.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v01.57.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v060.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v065tf.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  51,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v0_58_JD.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v0_58_symbol_fix.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v63 TVD1.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  50,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v63 TVD2.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  50,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v63B1.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v63D1.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  54,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird_v0_60_deaz1.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Forex Robotron v1.3_fix_x.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  56,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "FreeScalper.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "FX87 code.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  60,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "GEBA ROBOT.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  54,
+        "indicators":  "MA, ADX, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "GEBA ROBOT2.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  54,
+        "indicators":  "MA, ADX, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Generic v13.20.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  52,
+        "indicators":  "MA, RSI, CCI, Bollinger, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "GoWithFlow.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  52,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Grid_Template.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  52,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "high profit EA.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  57,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "iCustom-EA-V3.15.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  58,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr1.12.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  50,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr1.12Bx.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  50,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr1.13x.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  50,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr1.17.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  53,
+        "indicators":  "MA, ADX, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr1.19.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  53,
+        "indicators":  "MA, ADX, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr1.20.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  53,
+        "indicators":  "MA, ADX, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr19.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  53,
+        "indicators":  "MA, ADX, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr2.19.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  53,
+        "indicators":  "MA, ADX, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IKONIKROBOT.(EA).mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  50,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan-1.8.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  59,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan-Combi V2.1.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  61,
+        "indicators":  "MA, DeMarker",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan-Combi _Dinamic.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  61,
+        "indicators":  "MA, DeMarker",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan-Trio V1.2.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  56,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan-Trio V1.33.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  56,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan-Trio V1.43.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  56,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan-Trio V1.45.4.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  60,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan-Trio V1.47.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  58,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan1.6.Prof6.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  57,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_16TD_CCI_1.3.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  59,
+        "indicators":  "RSI, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_16TD_SCT.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  59,
+        "indicators":  "RSI, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_HiLo_RSI.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  59,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_HiLo_RSI_Dinamic.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  59,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_HiLo_RSI_fixed_by_Vespertilio.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  59,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_T1000_Plus2.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  59,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_Tren_AHP_2010.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  57,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ILAN_TURBO_BETA_v.4.5.11_Plus.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  59,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ILAN_TURBO_BETA_v.4.5.1_Plus_PcntM.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  58,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_VS_TrendTrading_LastTP_v1_2.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  51,
+        "indicators":  "CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_VS_TrendTrading_Trail.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  51,
+        "indicators":  "CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Black EA.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "janda tukang rename.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "KGFv1.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  58,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MACD Sample.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  52,
+        "indicators":  "MA, MACD",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MaHadgeEA.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  56,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MA_Cross_with_Exit_EA.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  55,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Mission Impossible Power Two Open Version 2.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  52,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Money Hunter_Modified _Ea _fixed lot.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MorFX Gold Digger A+.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  59,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MQLTA MT4 High Low Trailing Stop.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MR dollar_Pending Orders EA V6.1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MR.dollar_Pending Orders EA V5.5.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MR.dollar_Pending Orders EA V6.1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "muhsinEA.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  61,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi Lot Scalper.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  59,
+        "indicators":  "RSI, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi-Lot Scalper.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "multilot scalper.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "RSI, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MultiTrader.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  49,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scalper.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scalper1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scalper_A.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scalper_Psars.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scalper_Psars1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scalper_PsarsV1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  56,
+        "indicators":  "RSI, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scalper_P_D1_JLY4.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "RSI, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scalper_P_DAY_MT4.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  54,
+        "indicators":  "RSI, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scapler_P_DAY_JLY.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "RSI, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scapler_P_DAY_JLY1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "RSI, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scapler_P_DAY_JLY2.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "RSI, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scapler_P_DAY_JLY3.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "RSI, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scapler_P_DAY_MT4.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  54,
+        "indicators":  "RSI, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi_Lot_Scapler_P_DAY_MT41.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  54,
+        "indicators":  "RSI, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MY MILLIONS EA.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  57,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "my10trend.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  52,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MyLuckyProV04p.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  49,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "My_First_Adviser.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  49,
+        "indicators":  "MA, RSI, Bollinger",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NASDAQ Robotron.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "News Traders Mt4 v01.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "News Trading Pending Order EA v1.6.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "News_Grabber_Limit.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "News_Traders_Mt4_v01.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Noah10pips2006.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Nrtr_revers_www_forex-instruments_info.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NTK_07.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  55,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NY breakout v0.10.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NY breakout v0.11.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NY breakout v01.11.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "oilfxpro_gold_breakouts_freeversion.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "OmegaTrendEA_v7.0_EURUSD.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  49,
+        "indicators":  "MA, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "pedroXXmod.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Pegasus.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "PerfectEA v3.3.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  58,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "PerfectEA.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  58,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "phoenixea.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Phoenix_4_CONTEST(2).mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "phoenix_ea_v5_7_3_nmc.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  61,
+        "indicators":  "MA, RSI, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "PipeBomb_EA.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  54,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "PipsCut-v2.0 -edu.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  54,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Profit Seven EA 2.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  58,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Profit Seven EA2.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  57,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Reverse_Martingale_V3.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  55,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Robot Forex 2009 Profesional Demo~.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  55,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Robot Forex 2009 Profesional Full.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  55,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Robot Forex 2013 Profesional Demo~.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  60,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RobotPowerM5_meta4V1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  56,
+        "indicators":  "MA, Stochastic",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Robot_ADX+2MA.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  52,
+        "indicators":  "MA, ADX, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Robot_PowerM5-m .mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  52,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RoNz Auto SL-TS-TP.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  48,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RoNz_Auto_SL-TS-TP.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  48,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RPLine_v01H1.ex4.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  52,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "rsi_ea.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  54,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RSI_EA1.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  54,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RSI_Value_EA.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  50,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RSI_Value_v2.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  50,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RTC4NNCS-TRIAL~.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  57,
+        "indicators":  "MA, RSI, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RuleBaruSajaTercetus.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  49,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Rutka.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Rutka1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Rutka1_50.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Rutka1_50SMMA.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "S-R.original.mq4",
+        "class":  "B",
+        "strategy":  "Breakout",
+        "score":  52,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "S.A.R.A..mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  58,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "samsamov_after_close.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  49,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ScalperAngelsEA.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  58,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Secure profit.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  48,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Secure profit_v1.1.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  53,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Secure profit_v1.2.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  53,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Sell_Buy Scalper_agr.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  55,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SemiLong.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  56,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Semilong_www.forex-instruments.info.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  56,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SergeyGukach.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  51,
+        "indicators":  "RSI, Fractals",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Sergey_0.2.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "Fractals",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Session breakout v0.25.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  50,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Session breakout v0.26.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Session breakout v01.26.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Session breakout v01_mbk.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  48,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SHE_Baluev_Pro.mq4",
+        "class":  "B",
+        "strategy":  "Breakout",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SHE_Baluev_Real.mq4",
+        "class":  "B",
+        "strategy":  "Breakout",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SHE_Lucky.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  48,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SHE_Lucky_reinvest.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  48,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SHE_Lucky_reinvest_V.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  48,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ShockBar_v_1_1.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  59,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendExpert_V2a.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  58,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendTrader(xyz).mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  58,
+        "indicators":  "MA, DeMarker",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendTrader.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  58,
+        "indicators":  "MA, DeMarker",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendTrader_v3.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  56,
+        "indicators":  "MA, ADX",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendTrader_v3_JMA.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "ADX",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendTrader_v3_JTPO.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "ADX",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendTrader_v3_JTPO1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "ADX",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendTrader_v4.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendTrader_v4_JTPO.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "ADX",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendTrader_v5.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendTrader_v6.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendTrader_v7.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  55,
+        "indicators":  "MA, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendV3 (2).mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "ADX",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SilverTrendV3.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "ADX",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Simple Expert Advisor.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Simple Stoch Divergence EA.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  59,
+        "indicators":  "MA, Stochastic, Bollinger",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "simple-macd-EA.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  50,
+        "indicators":  "MA, MACD",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Simple-macd-ea_www_forex-instruments_info.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  50,
+        "indicators":  "MA, MACD",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SimpleH1_GBPUSD_EAv9.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "MA, Fractals",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SimpleSAR_EA2.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "simple_copier.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  49,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "simple_ma_cross_ea.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  50,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "sixperiod_v31.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SLR_FXPROFIT.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  48,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SLR_MoneyRain.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  48,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Autotrader Momentum.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC eur usd(28AUG05).mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  54,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC HiLo v1.1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC HiLo v11.1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC HiLo v11.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC MA 3BAR.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC MA xover.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC MA.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC MACD new idea.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  52,
+        "indicators":  "MA, MACD",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Manual EA limit and_or stop order.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  48,
+        "indicators":  "Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Manual EA with seperation.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Manual EA.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader 2 MAs 12 26 EMA Basic.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader 2 MAs 5 20 EMA.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader 2 MAs 5 20 EMA1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader Aroon V1.3.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "MACD, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader Camel CCI MACD -ron02.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  53,
+        "indicators":  "MA, MACD, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader Kurt v2.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  54,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC-1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC_Shell.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SniperEA-V3.11_UNI.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  56,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "souce of fx pips blaster.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  57,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Tesshinso.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "THV EA v2.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "tiger.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  54,
+        "indicators":  "MA, ADX, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trade Manager.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  50,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trailing Buy Stop.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trailing Sell Stop.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trailing Stop 5.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrailingStop.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrailingUdavka.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrailingWithPartialClose.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrailMe.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrailMe1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  49,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trend Moving Average.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  48,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trend Racing 3.51 ME Lite_tral_lasttp.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  57,
+        "indicators":  "ADX, RSI, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trend Racing 3.57 ME Lite.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  53,
+        "indicators":  "ADX, RSI, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrendlineOrder.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  51,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrendScalper_GTR_beta.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrendScalper_TR.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrendScalper_TR1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrendScalper_TR_loosetest.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrendScalper_TR_opbartr.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrendTrading_EA_v1.1.mq4",
+        "class":  "B",
+        "strategy":  "Trend",
+        "score":  57,
+        "indicators":  "MA, ADX",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TripleMA_Crossover_EA.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  58,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TripleMA_Crossover_expert.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  58,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TripleMA_Crossover_expert1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  58,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TripleMA_Crossover_expert2.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  58,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trix_EA.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  54,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "True Scalper V11 Sergey.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "True Scalper v4.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  52,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrueBald.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrueScalper_Ron_MT4_v02a TS.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  56,
+        "indicators":  "MA, RSI, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrueScalper_Ron_MT4_v02a.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  56,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrueScalper_Ron_MT4_v02a1.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  56,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrueScalper_Ron_MT4_v04(08SEP05).mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  52,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrueScalper_Ron_MT4_v04.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  52,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrueScalper_Ron_MT4_v041.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  52,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrueScalper_Ron_MT4_v111.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrueScalper_Ron_MT4_v112.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrueScalper_Ron_Ruby_MT4_v111.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  53,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TRUE_SCALPER_V11b.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  56,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TurtleTraderV1_0_1.mq4",
+        "class":  "B",
+        "strategy":  "MultiStrategy",
+        "score":  59,
+        "indicators":  "MA, ADX, RSI, Stochastic, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Two_MA_Cross.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  56,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Two_MA_Cross_EA.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  55,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "virtual_trailing_stop.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  48,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Waygrow_edu v1.8 best.mq4",
+        "class":  "B",
+        "strategy":  "Scalping",
+        "score":  59,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "XAU-iNDEX.mq4",
+        "class":  "B",
+        "strategy":  "GridMartingale",
+        "score":  50,
+        "indicators":  "MA, RSI, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "XMT-Scalper_v2.45.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  57,
+        "indicators":  "MA, RSI, Bollinger",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "XMT-Scalper_v2.461.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  57,
+        "indicators":  "MA, RSI, Bollinger",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "XMT-Scalper_v2.522.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  57,
+        "indicators":  "MA, RSI, Bollinger, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "XMT-Scalper_v2.mq4",
+        "class":  "B",
+        "strategy":  "MeanReversal",
+        "score":  57,
+        "indicators":  "MA, RSI, Bollinger",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Adenan Scalping.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  33,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "AF-Investing.Cv.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  41,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Algo Samurai.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  37,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "amingrid.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "another martingale fix.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "AsiaScalperPro_.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  12,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Auto Trading_v2.02.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  36,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "B l u e .mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  22,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "B l u e 2.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  22,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "BEAST SUPER SIGNAL EXPERT ADVISOR.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  10,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Best-Grider.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Big Rise EA.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  10,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "BigRise EA.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  42,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Bismillah Hedge..mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  32,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "BlessingLite-gamma.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  34,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Blessing_3_v3.9.6.18.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  28,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "BLUE GOLD EA (FMP.SA).mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  10,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Bollinger_Bands_Exit_Strategy.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  41,
+        "indicators":  "MA, Bollinger",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Boom EA.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "bot gold.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  37,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "BreakOutBoxesV2.06.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  40,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Calculate Trendline Script.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CalendarFX-DeactivateEAs_v1.02_danEdit.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  39,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ClickCloseAllv01.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  33,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Close all positions at profit target v1.1.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  29,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Close All.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  30,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Close Losses.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  30,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Close Open.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  30,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Close Pendings.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  30,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Close Profits.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  30,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CloseAfterXpips EA.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  23,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CloseAllTrades.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  26,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CloseAllTradesBuy.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CloseAllTradesBuyCurrent.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CloseAllTradesCurrent.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  26,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CloseAllTradesOpened.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CloseAllTradesOpenedCurrent.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CloseAllTradesPending.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  26,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CloseAllTradesPendingCurrent.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  26,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CloseAllTradesSell.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CloseAllTradesSellCurrent.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CloseAtProfit.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  42,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "closeattime.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  36,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "closetrades_after_account_loss_toomuch.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  19,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "CTG-Modify_Date.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  33,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Daily_Research.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  19,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "day open .mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  36,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Daydream01.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  24,
+        "indicators":  "Donchian",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "DeleteAllObjects.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  33,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Dragon Expert Advisor v4.1 updated 2019 .mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  37,
+        "indicators":  "MA, RSI, CCI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Dream EA.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  34,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Dreko.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  20,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "EA for Set TP-SL.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  33,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA noName(1).mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "MA, RSI, Fractals, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ea Scalper FX Finish_.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  26,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "EA-HOKKYDJONG.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  5,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "EA_Close_All_v5.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA_eurusd m15.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  31,
+        "indicators":  "Stochastic",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EA_LUCRE.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  5,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "EA_TheOne.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  29,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Elite_eFibo_Trader_v2_1.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  47,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EquityGuard1.2c.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  34,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "EuroScalper MQ4 source.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  27,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Exclusive Scalping EA.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  45,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Fast Scalper.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "FFCal Panel (Black).mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  34,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "FFCal.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  33,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Find Data Holes.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  19,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v0.50(26JUL05).mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v0.50.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v0.51.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "MA, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Firebird v0.56 [ea].mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  0,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "unknown"
+    },
+    {
+        "file":  "Firebird v0.57 [ea].mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  0,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "unknown"
+    },
+    {
+        "file":  "Firebird v0.58 [ea].mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  0,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "unknown"
+    },
+    {
+        "file":  "Firebird v0.60 [ea].mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  0,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "unknown"
+    },
+    {
+        "file":  "Firebird v0.61.01 [ea].mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  0,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "unknown"
+    },
+    {
+        "file":  "Firebird v0.61.01 [ea]5.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  0,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "unknown"
+    },
+    {
+        "file":  "Firebird v0.62 [ea].mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  0,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "unknown"
+    },
+    {
+        "file":  "Firebird v0.63 [ea].mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  0,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "unknown"
+    },
+    {
+        "file":  "Firebird v3[1].2-fixed.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  0,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "unknown"
+    },
+    {
+        "file":  "Firebird_v0[1].60__ea_.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  0,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "unknown"
+    },
+    {
+        "file":  "Firestats v0.5.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  34,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "FlyBot EA 2.0.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  34,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "FlyBot EA.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  32,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Forex Fireball by Forex Robot Nation~.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  9,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Forex hacked Pro~.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  26,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Forex PiP Killer .mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Forex-Gold-Trader-V.2.0.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  22,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "forex50pips.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  37,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ForexMission.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  30,
+        "indicators":  "MA, MACD",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "FoZo System.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  32,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Fracture-7.4.0.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  40,
+        "indicators":  "MA, ADX, Fractals",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "fx street 2.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "FXCore100.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  36,
+        "indicators":  "RSI, Stochastic",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "FXMIND SCALPANDO H1 STANDARD 300$.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  32,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "FXMIND SCALPANDO H1 STANDARD.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  32,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Ghost EA.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  32,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Gold Rush Pro Source Code.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  24,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "GOLD SMART EA 1.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  37,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Gold.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Golden EA.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Golden Owl source code.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  31,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Good good.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  15,
+        "indicators":  "Stochastic",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "GPSForexRobotEURGBP_edu.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  40,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "GPSForexRobotEURUSD_edu.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  40,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "GPSForexRobotUSDCHF_edu.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  40,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Grail.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "H4_BreakOut_Cycle_V1a.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  44,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Hide Trendline Script.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ichi_scalper_allpairs_v52.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  33,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "iCustom_EA1.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr.6.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr.7.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr.8.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr.9.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr1.5.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr1.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr2.2.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "icwr2.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ikarus_2.0.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  37,
+        "indicators":  "RSI, CCI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ILAN TURBO BETA v.4.5.1 +Mear.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  39,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_Exstra_Friday-from_Martingeil.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_Lite_1.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  25,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_RSI_mm_extr18.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  37,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Ilan_RSI_mm_extr192_rrr.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  34,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Indicator Max Pips.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  45,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Investing.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  41,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Iron Scalper EA.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Blue EA 2.0.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  42,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Green EA 2.0.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Green EA.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Grey EA (Safe Mod).mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  33,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Grey EA.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  33,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Light EA 2.0.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  35,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Light EA.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  37,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Lime EA.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  33,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Orange EA (PROP Firm).mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Orange EA.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Purple EA 1.1.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Purple EA 1.2.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Purple EA.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Red EA 2.0.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Red EA.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS SevenTrade EA 3.0.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Smart Scalper 6.0.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  31,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS VIP One EA.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  37,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS White EA 2.0.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS White EA.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Yellow EA 2.0.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  38,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "IS Yellow EA.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  38,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "iSwing v5.3.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  10,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "i_TDI_MA_01.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  36,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "JabrixScalperForInsta.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  29,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "partially_obfuscated"
+    },
+    {
+        "file":  "Jum+StoC+v2.3F~.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  18,
+        "indicators":  "MA, Stochastic",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Jum+StoCh luis.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  15,
+        "indicators":  "Stochastic",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Jum+StoCh+v2 (3).5F.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  15,
+        "indicators":  "Stochastic",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Jum+StoCh+v2.3F.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  18,
+        "indicators":  "MA, Stochastic",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Jum+StoCh+v2.5F.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  15,
+        "indicators":  "Stochastic",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "JUMSTOCH_FIXEDLOT.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  15,
+        "indicators":  "Stochastic",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Life Changer EA.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  33,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "M-Golden Scalper.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  29,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "M-Sniper EA.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  42,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MA-RSI-EA.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  35,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MegaDroid~.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  11,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "me_SimpleTradingDashboard.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  22,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Mforex Magic EA.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Mforex New Scalper.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Mforex Smart Scalper 5.0.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  38,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "mGRID EA.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  44,
+        "indicators":  "MA, Donchian",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Mi New Line 1.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Mi New Line 2.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MiEA 1.3.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MiEA 2.3.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MiEA 3.2.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MiEA 4.4.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MiEA 5.6.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MiEA 6.3.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MiEA 7.3.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MiEA 8.2.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MiEA 9 EA 2.0.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Money Pile EA.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MS_1.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  31,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MS_2.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  31,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MS_4.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  31,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MS_5.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  31,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MT4 Elliot Wave.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  19,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multi purpose trade manager.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  44,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MultiBreakOut_v5.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  44,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MultiHedge V1.1.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  33,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multilot-ASCTRend.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Multilot.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  26,
+        "indicators":  "Fractals",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MultiPairWPR.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "multipositionexpert_v11.11.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  22,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "my.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  46,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "My4xScalper_GOLD~.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  19,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "MyFirstEA.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  46,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MyFriend.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  46,
+        "indicators":  "Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "myMACD4ver2.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  47,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MyNewsTrading_EA.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  45,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "MyProject.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  47,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "my_pyr.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  47,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NAS KILLER_PRO_EA 3.0.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  10,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Neuro-MartingailExpertStochastic_v3.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  42,
+        "indicators":  "Stochastic",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Nevalyashka_BreakdownLevel.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  42,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Newest Universal 10.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  26,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Newesta 4.2.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NEWEXPERT-NN.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  38,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NewM2H.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  42,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "News On Mt4.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  34,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "News_AmazingEA_1.0.5.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  40,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Night Grid FZ.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  45,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Nikra EA.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  24,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NinaEA v.02.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  45,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NinaEA v03.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  45,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NinaEAtest.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  45,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NinjaForex_Versi AI unlimited fix.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  43,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "partially_obfuscated"
+    },
+    {
+        "file":  "NinjaForex_Versi AI unlimited.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  25,
+        "indicators":  "MA, RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "No_Nonsense_ATR.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  44,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "NRTR_EXP.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  26,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Nuclear Option script.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  22,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "O2.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  36,
+        "indicators":  "CCI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "OBOS Divergence_FXTS_FastMod.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  42,
+        "indicators":  "MA, RSI, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "OBOS_Divergence(Bullforyou.com).mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "MA, RSI, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "OGT Zone Recovery EA v1.5.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  35,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "OM_2WAY_v3.6.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  38,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "once per bar expert.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  45,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "OndaFX-EDU.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  25,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "ORIGINAL88.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  10,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "OU Forex Mastery Market Scanner.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  40,
+        "indicators":  "MA, RSI, Donchian",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "OverHedge.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  33,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "OverHedgeV2.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  36,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Overhedgev2_www_forex-instruments_info.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  36,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Overlay Positive Hedging v1a_.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  37,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Pair High Return(R3-07).mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  24,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "PairTrader_Exp v41.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  44,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Palmuz.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  32,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "parabolic_2_screen.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  45,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "parabolic_DMI.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  45,
+        "indicators":  "ADX",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "parabolic_DMI2.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  45,
+        "indicators":  "ADX",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ParaSwing_EA~eurusd m15.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  31,
+        "indicators":  "Stochastic",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Pauls MACD EA checks re-entry and high TF.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  43,
+        "indicators":  "MA, MACD",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "paul_maloma.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  45,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "PCS-01.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  35,
+        "indicators":  "Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "PCS-02.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  47,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Pending Breakout.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  42,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "pending martingale 1.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  10,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Pending Orders.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  29,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "perevorot.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  30,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "PFP v3-2.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  36,
+        "indicators":  "MA, Pivot",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "PIIP-3.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  30,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "PIIP.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  42,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Pioner_v2.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  44,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Pioner_v4.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  44,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Pioner_v7.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  44,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "pio_pyr.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "pipschart_revamp_v3P.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  40,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Pipsover.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  45,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Pips_Miner_SE.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  37,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Precis EA 2.0.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Precis EA.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Price Action Scalping.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  24,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "PullBack_V1a.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  44,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Pyramid_Pro_v.8.01MA_edu.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  34,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "partially_obfuscated"
+    },
+    {
+        "file":  "Quasimodo ea.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  42,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "QUASMOD 2 EA.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  42,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "renkolivechart_v600_indi.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  28,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "renko_hunter.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  45,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RndTrade.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  17,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Robot 2050_ LONG.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  46,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Robot Forex 2015 Profesional.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  46,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Robot2050_ Short.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  46,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "rocco3.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  10,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "rotating_text.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  19,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RPM5_MT4V1_[ea].mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  0,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "unknown"
+    },
+    {
+        "file":  "RPT-bad.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  25,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RPT.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  28,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RPT_AUD.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  24,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RPT_AUD_TAKE.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  24,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RPT_EUR.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  24,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RSI CROSS.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  28,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RSI trader v0.10.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  37,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RSI_BollingerBands.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI, Stochastic",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RSI_trader_v0[1].10.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  0,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "unknown"
+    },
+    {
+        "file":  "RSI_Tradexperts.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RUBBERBANDS_1_6.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "RUSSIAN BEAR High Frequency Trading HFT 2018 .mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  38,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "russian20-HP.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  36,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "russian20-HP1.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  36,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "russian20_HP.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  36,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "S-R.1.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  47,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Scalp-M PRO 2.0.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  44,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SCALPANDO marti pro for cent acc m15.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  30,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Scalper Cash Maker EA.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  29,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Scalper_FX.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  19,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Sell 20-40TP l 25 griglia l 10 ordini.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Sell Stop Buy Stop.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  44,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "sell\u0026buy.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "sellbuy-mod.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  40,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "sendKeybd.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Send_Pending_Order.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  44,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "sereganlp2008.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  45,
+        "indicators":  "MA, Pivot",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Serg153 Martingail.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  37,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "serg_martini2.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  22,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Servant Avg+++..mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Set TP (Price).mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  47,
+        "indicators":  "RSI, CCI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Setka Limit Loc v4.2.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  35,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SetPendingGridLimit.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  47,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SevenFx 7a.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  13,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "partially_obfuscated"
+    },
+    {
+        "file":  "SevenTrade EA 2.0.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Shafina v1.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  32,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Shafina v2.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  32,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "SHE_AntiBaluev_Pro.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  37,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SHE_kanskigor.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  19,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ShockBar 1.2.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  44,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ShockBar1.2.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  44,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Shurgin_Collector.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  16,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "siimple.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  35,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Simple Expert Advisor with Functions.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  47,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SimplePivot.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  22,
+        "indicators":  "Pivot",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SimplyOpen.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  42,
+        "indicators":  "RSI, Fractals",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SistemaEA_ByFreddy_mod1.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  44,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SistemaEA_ByFreddy_Trans_v3.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SistemaEA_ByFreddy~.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Six Study EA.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  36,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "sixtysecound ea.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  10,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SKIV_Trader.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  45,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SkyUp EA.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  34,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SL-TP_move-by-Mouse.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  33,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Slave-yang nyontek~.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  23,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "SLR_alpari.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  32,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SLR_BIF.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  32,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SLR_Lite.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  32,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SLR_Test.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  32,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "sltp-currency.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  30,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "smart s.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  33,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Smart Scalping EU M1.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  39,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Smart_Algoritm_Kod.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  28,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "partially_obfuscated"
+    },
+    {
+        "file":  "SMA_MultiHdege2.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  33,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC eur usd(26AUG05).mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  43,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC eur usd1(26AUG05).mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  43,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC eur usd1.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  43,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC eur usd2.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  43,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader Camel CCI MACD.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  43,
+        "indicators":  "MA, MACD, CCI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader Kurt.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  43,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader Kurt1.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  43,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader Kurt2.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  43,
+        "indicators":  "MA, MACD, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader MACD v1.0.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  41,
+        "indicators":  "MA, MACD",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader Manual.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  35,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader Skeleton v2(07SEP05).mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  46,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC Trader TriggerLines V2.1.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  38,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  35,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC2.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  35,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC3.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  35,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SMC_Trader_TriggerLines_V2.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  38,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "sqDynamicBreakoutBox_v1 600+.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  39,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Stoch.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  46,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Sure Hedging pipschart.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  39,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SureForexHedging_2.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  39,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "SyDiv_v0.1.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  44,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TDI Red Green Tape.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  31,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TDI Red Green_alerts_mtf 2.02 alert.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  31,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TDI.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  31,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Teodosi_EA.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  38,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TimeBasedEA.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  47,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TITUS OB Indicator.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  29,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trade City D1 MA 5 EA.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  10,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "traders-dynamic-index.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  31,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trading profit protect_ea.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  30,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "traide-advisor.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  46,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trailing Stop v_tdavid.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  38,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrailingStopCmillion_v1.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  46,
+        "indicators":  "Fractals",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrailingStopFrCnSAR.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  46,
+        "indicators":  "Fractals",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TralingStop_v3.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  37,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TralPendOrder.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  42,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Transfer2Fractal.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  32,
+        "indicators":  "Fractals",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Transformer_EA_V(3).mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  31,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "TrendCapture.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  45,
+        "indicators":  "ADX",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trendline Trader.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  47,
+        "indicators":  "MA, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trendline.Trader.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  47,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TrendMeLeaveMe.mq4",
+        "class":  "C",
+        "strategy":  "Breakout",
+        "score":  45,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TRIANGULAR PRICE CORRECTION.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  43,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "TriangularArbitrage.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  37,
+        "indicators":  "MA",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Trio Orchestra v1.0.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  24,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "TrioDancer_4.4.5.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "partially_obfuscated"
+    },
+    {
+        "file":  "TSR.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  15,
+        "indicators":  "Stochastic",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "Ultimate Trader Behind The Charts Cracked MQL4.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  10,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Universal EA 2.0.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  34,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Universal EA.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  34,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "UnNomGuaiV1.132.mq4",
+        "class":  "C",
+        "strategy":  "MeanReversal",
+        "score":  38,
+        "indicators":  "MA, RSI, CCI",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Vangus EA.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  43,
+        "indicators":  "RSI",
+        "has_sl":  true,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "VapzFX PRO MQ4.mq4",
+        "class":  "C",
+        "strategy":  "Scalping",
+        "score":  26,
+        "indicators":  "MA",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "VR SETKA A.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  28,
+        "indicators":  "RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "waygrow_edu EA.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  10,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "XAU M V2.5 SC.mq4",
+        "class":  "C",
+        "strategy":  "GridMartingale",
+        "score":  32,
+        "indicators":  "RSI, Donchian",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "ZEAdor.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  11,
+        "indicators":  "",
+        "has_sl":  true,
+        "has_tp":  true,
+        "code_quality":  "obfuscated"
+    },
+    {
+        "file":  "ZScore Diff 3 pairs EA_011.mq4",
+        "class":  "C",
+        "strategy":  "Trend",
+        "score":  38,
+        "indicators":  "MA, RSI",
+        "has_sl":  false,
+        "has_tp":  true,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "Zupp.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ZUPp148.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ZUPpush notif_148 v7.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "zupp_148.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    },
+    {
+        "file":  "ZUP_v63.mq4",
+        "class":  "C",
+        "strategy":  "Unknown",
+        "score":  14,
+        "indicators":  "Fractals",
+        "has_sl":  false,
+        "has_tp":  false,
+        "code_quality":  "clean"
+    }
+]

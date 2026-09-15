@@ -1,0 +1,64 @@
+Auditoria — ALXQuant Asset DNA Profiler v3.0-Institutional (versão real)
+Essa é uma classe bem diferente da -lite: tem walk-forward de HMM de verdade, CPCV completo (15 caminhos combinatórios, não 3), Johansen para cointegração, divergência JS entre distribuições de regime no Purged WF, e o bug do --input está corrigido. Isso já é engenharia quant séria. Mas ainda não fecha o padrão institucional por três motivos estruturais que persistem — e um deles é herdado exatamente do mesmo ponto que eu já tinha sinalizado na versão lite.
+
+🔴 O problema mais sério: RegimeModel ainda usa quantis globais (hindsight bias)
+pythonadx_p75 = df['adx'].quantile(0.75)
+...
+hurst_p75 = df['hurst'].quantile(0.75)
+Isso calcula os limiares sobre os 10 anos inteiros e aplica retroativamente a cada candle — inclusive os de 2015, que "sabem" a distribuição estatística de dados de 2025. O problema não é usar isso como calibração fixa para o EA em produção (isso é legítimo — parâmetro estático aprendido do histórico e aplicado no futuro). O problema é que essa mesma série de regime contaminada por hindsight é depois usada para validar a própria pipeline: alimenta WalkForwardValidator, PurgedWalkForwardValidator, CPCVValidator e o cálculo de agreement do HMM. Ou seja, você está medindo "estabilidade" e "concordância" de um rótulo que já continha informação do futuro em cada ponto do passado — isso infla artificialmente todos os scores de validação do relatório.
+Correção: gerar dois regime: um com quantis expanding (causal, usado para toda validação) e, separadamente, os quantis globais finais como constante de calibração para o MQL5 (isso sim pode ficar fixo).
+
+🟠 HMM Walk-Forward: leakage residual dentro de cada janela
+pythonfor right in wf_steps:
+    seq = features_all[:right]
+    ...
+    m, _ = _train_safe(seq[valid_seq], self.n_states)
+    states = m.predict(seq)
+    hidden_states[chunk_start:min(right, n)] = states[-stride:]
+Isso é bem melhor que a lite (25 retreinos reais vs. 1 treino fixo), mas o modelo treinado em seq[:right] inclui o próprio chunk que está sendo rotulado (chunk_start:right). Os parâmetros do HMM (médias, covariâncias, transições) usados para classificar o trecho [chunk_start, right) foram parcialmente estimados com dados desse mesmo trecho. Para ser estritamente causal, o treino deveria ir só até chunk_start (não até right), com o chunk [chunk_start, right) sendo puro out-of-sample.
+Isso é um leakage mais sutil que o de regime, mas seguindo o mesmo padrão — vale corrigir junto.
+
+🟠 "PBO Score" está mal nomeado — não é o que Bailey & López de Prado definem
+O CPCV mede a diferença entre a média do Hurst em treino vs. teste por caminho combinatório, e chama o resultado de pbo_score. O PBO real (López de Prado, Advances in Financial ML) mede a probabilidade de que a estratégia com melhor Sharpe in-sample tenha Sharpe abaixo da mediana out-of-sample — ou seja, requer um conjunto de estratégias candidatas sendo comparadas por performance, não uma única série estatística (Hurst) sendo comparada consigo mesma entre blocos.
+O que está implementado é, na prática, um teste de estabilidade estrutural do Hurst via CV combinatório purgado — que é útil e bem construído — mas rotulá-lo como "PBO" no PDF/JSON que vai para investidores ou para decisão de alocação é um erro de nomenclatura que pode ser lido como "testamos overfitting da estratégia" quando na verdade não há estratégia nenhuma sendo testada (não há sinal de trade, Sharpe, nem PnL em lugar nenhum do pipeline). Recomendo renomear para regime_stability_pbo_proxy e deixar isso explícito na documentação/PDF.
+
+🟡 Multiple testing não corrigido nos "leading indicators"
+pythonfor ms in macro_symbols[:40]:
+    ...
+    for lag in range(1, max_lag + 1):   # até 45 lags
+        c, p = stats.spearmanr(...)
+Isso é até 40 × 45 = 1.800 testes de hipótese rodados sem correção (Bonferroni, Benjamini-Hochberg, etc.), filtrando por p < 0.10. Com esse volume de testes, é estatisticamente esperado encontrar dezenas de "correlações significativas" por puro acaso (data snooping). O relatório vai mostrar "leading indicators" no PDF que parecem robustos mas são, em boa parte, ruído. Isso é crítico porque essa seção é justamente a que mais parece "alpha" para quem lê o relatório.
+Correção mínima: aplicar FDR (Benjamini-Hochberg) sobre o conjunto de p-valores antes de filtrar, ou reportar o p-valor ajustado.
+
+🟡 Correlação de níveis não-estacionários (ATR vs macro)
+pythonr_val, p_val = stats.pearsonr(valid[af], valid[ms])  # para af != 'close_ret'
+Vocês corrigiram isso corretamente para close_ret (usa retornos). Mas atr, adx, hurst, tr_zscore continuam sendo correlacionados em nível com séries macro em nível. hurst e adx são limitados e razoavelmente estacionários, então tudo bem. Mas atr é uma série de escala de preço, tipicamente com tendência de longo prazo (ex: ATR do ouro sobe estruturalmente com o preço do ouro ao longo de 10 anos) — correlacionar isso com séries macro em nível (ex: CPI, que também tem tendência) é receita clássica de correlação espúria (Granger & Newbold). Recomendo trocar atr por variação percentual do ATR ou z-score de longo prazo antes de correlacionar.
+
+🟡 Ausência de teste de significância para Hurst e Transfer Entropy
+Igual à lite: nem o DFA-Hurst nem o KSG-TE têm teste contra distribuição nula (shuffle/surrogate). Isso significa que não há como saber, olhando o relatório, se hurst=0.53 é estatisticamente diferente de ruído puro (H=0.5) ou se TE ret→vol = 0.0003 é sinal real ou viés positivo inerente do estimador KSG em amostra finita. Para uso institucional isso é essencial — sem isso, qualquer número reportado pode estar dentro da margem de erro do próprio estimador.
+
+🟡 Qualidade de dados e produção (mesmas lacunas da lite)
+
+Nenhuma validação de gaps/duplicatas/candles com volume zero antes do feature engineering.
+session classificada por hour cru, sem tratamento de timezone/DST — em 10 anos isso desloca a classificação de sessão duas vezes por ano.
+warnings.filterwarnings('ignore') global esconde não-convergência do HMM, falhas do ADF, degenerações do coint_johansen.
+Sem testes unitários, sem pinning de versões, caminhos hardcoded para Windows.
+
+
+✅ O que já está em nível institucional de verdade
+
+HMM com walk-forward real (25 retreinos) — enorme salto de qualidade vs. a lite.
+CPCV completo com todos os 15 caminhos combinatórios purgados.
+Johansen para cointegração em vez de Pearson em níveis — abordagem correta para pares macro-ativo.
+Divergência de Jensen-Shannon entre distribuições de regime treino/teste no Purged WF — métrica sofisticada e bem escolhida.
+Kalman causal, FFD via ADF, KSG-TE contínuo — mantidos corretamente.
+Correção de retornos (não níveis) para close_ret nas correlações macro — mostra que vocês já sabiam evitar regressão espúria em pelo menos um lugar; falta estender a mesma disciplina ao resto.
+
+
+Prioridade de correção
+
+Regime com quantis expanding para toda validação (mantendo os quantis globais só como constante de calibração do EA) — é o fix que mais muda a credibilidade dos números que saem no PDF hoje.
+Cortar o treino do HMM em chunk_start (não right) para eliminar o leakage residual do walk-forward.
+Renomear/documentar o pbo_score para o que ele realmente mede.
+Correção FDR nos leading indicators macro.
+Teste de significância (shuffle) para Hurst e TE.
