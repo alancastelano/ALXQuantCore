@@ -33,13 +33,11 @@ if ($LASTEXITCODE -ne 0) { throw "Vite build falhou" }
 # 4. Restart services
 Write-Host "`n[4/5] Reiniciando servicos..." -ForegroundColor Cyan
 & nssm restart ALXQuant-Server
-& nssm restart ALXAccountMonitor
 & nssm restart ALXCommandCenter
 
 # 5. Status
 Write-Host "`n[5/5] Verificando status..." -ForegroundColor Cyan
 & nssm status ALXQuant-Server
-& nssm status ALXAccountMonitor
 & nssm status ALXCommandCenter
 
 Write-Host "`n=== Deploy concluido: $(Get-Date) ===" -ForegroundColor Green
