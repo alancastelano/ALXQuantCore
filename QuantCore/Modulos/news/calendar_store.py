@@ -14,7 +14,7 @@ import duckdb
 
 logger = logging.getLogger(__name__)
 
-DB_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "ALXQuantCore.duckdb")
+DB_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "ALXQuantCore.duckdb")
 
 
 def _get_connection(read_only: bool = False, retries: int = 5, retry_delay: float = 0.5) -> duckdb.DuckDBPyConnection:

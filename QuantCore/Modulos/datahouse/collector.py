@@ -105,6 +105,30 @@ CREATE INDEX IF NOT EXISTS idx_risk_date
 ON risk_labels(date)
 """
 
+# Espelha as colunas usadas pelos INSERTs/UPDATEs de engine.py
+# (_upsert_macro_economy_assets, _upsert_ohlc_assets, _upsert_kcroro_assets)
+# + CATALOG_EXTRA_COLUMNS. Base para ensure_universe_catalog() semear a view.
+CATALOG_DDL = """
+CREATE TABLE IF NOT EXISTS macro_catalog (
+  symbol VARCHAR,
+  name VARCHAR,
+  category VARCHAR,
+  subcategory VARCHAR,
+  country VARCHAR,
+  frequency VARCHAR,
+  source VARCHAR,
+  unit VARCHAR,
+  description VARCHAR,
+  fred_code VARCHAR,
+  category_type VARCHAR,
+  collector VARCHAR,
+  target_table VARCHAR,
+  timeframe VARCHAR,
+  enabled BOOLEAN,
+  min_freshness_hours INTEGER
+)
+"""
+
 
 def init_db(db_path=None) -> str:
     """Garante arquivo + schema do DuckDB (cria se ausente). Idempotente.
@@ -123,9 +147,16 @@ def init_db(db_path=None) -> str:
         conn.execute(MACRO_INDEX_DDL)
         conn.execute(RISK_DDL)
         conn.execute(RISK_INDEX_DDL)
+        conn.execute(CATALOG_DDL)
         conn.commit()
     finally:
         conn.close()
+    # Semeia catalogo (OHLC+KCRORO+macro) + view v_update_schedule — somente
+    # no DB oficial (ensure abre a propria conexao no DB_PATH padrao).
+    # Lazy para evitar ciclo de import; nossa conexao ja fechou (sem lock).
+    if Path(target) == Path(DB_PATH):
+        from Modulos.datahouse.engine import ensure_universe_catalog
+        ensure_universe_catalog()
     return str(target)
 
 # Canal de simbolos internos (canonicos no DB) -> simbolo do broker MT5.

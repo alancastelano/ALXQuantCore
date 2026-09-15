@@ -1070,12 +1070,17 @@ def compute_roro_for_new_data(df_daily: pd.DataFrame) -> pd.Series:
 
 def main():
     _acquire_lock()
-    _signal.signal(_signal.SIGALRM, _timeout_handler)
-    _signal.alarm(ENGINE_TIMEOUT)
+    # SIGALRM nao existe no Windows — guarda mantem Unix intacto e
+    # evita AttributeError que quebrava todo repair de Risk na VPS.
+    _has_alarm = hasattr(_signal, "SIGALRM")
+    if _has_alarm:
+        _signal.signal(_signal.SIGALRM, _timeout_handler)
+        _signal.alarm(ENGINE_TIMEOUT)
     try:
         _main_inner()
     finally:
-        _signal.alarm(0)
+        if _has_alarm:
+            _signal.alarm(0)
         _release_lock()
 
 
